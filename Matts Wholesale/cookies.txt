@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.mattsappliance.com	TRUE	/	FALSE	1999999999	SESSIONID	%37%65%30%34%37%35%37%61%2d%63%38%37%65%2d%34%65%35%65%2d%39%62%35%62%2d%38%37%31%31%65%64%62%33%37%33%61%38
+www.mattsappliance.com	TRUE	/	FALSE	1999999999	consumer_profile_id	%2d%32%36%34%31%37%32%38%39%32%38%36%30%35%34%30%32%39%32%33
+www.mattsappliance.com	TRUE	/	FALSE	1999999999	WF_ANALYTICS_KEY	%31%36%38%38%37%35%34%33%32%36%30%36%31
+www.mattsappliance.com	TRUE	/	FALSE	1999999999	proxy-last-seen-date	%32%30%32%33%2d%30%37%2d%30%37
+
