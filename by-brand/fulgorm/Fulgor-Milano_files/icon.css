@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/fsearch/icomoon.eot?tormd');
+  src:  url('/fonts/fsearch/icomoon.eot?tormd#iefix') format('embedded-opentype'),
+    url('/fonts/fsearch/icomoon.ttf?tormd&ccid=x3356f0c6') format('truetype'),
+    url('/fonts/fsearch/icomoon.woff?tormd&ccid=x3356f0c6') format('woff'),
+    url('/fonts/fsearch/icomoon.svg?tormd#icomoon&ccid=x3356f0c6') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-fsearch-"], [class*=" icon-fsearch-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-size: 70px;
+  color: blue;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fsearch-small:before {
+  content: "\e900";
+}
+.icon-fsearch-ventilation:before {
+  content: "\e901";
+}
+.icon-fsearch-air:before {
+  content: "\e902";
+}
+.icon-fsearch-dish:before {
+  content: "\e903";
+}
+.icon-fsearch-mic:before {
+  content: "\e904";
+}
+.icon-fsearch-ref:before {
+  content: "\e905";
+}
+.icon-fsearch-laund:before {
+  content: "\e906";
+}
+.icon-fsearch-cooking:before {
+  content: "\e907";
+}
+
