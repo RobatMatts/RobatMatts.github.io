@@ -1,0 +1,298 @@
+var MaxShippingDistance = (function()
+{
+    // Initialize constants
+	var valid_zip = /\d{5}|\w\d\w\s?\d\w\d/;
+	
+	function postalFilter (postalCode) {
+
+		if (! postalCode) {
+			return false;
+		}
+	
+		postalCode = postalCode.toString().trim();
+	
+		var us = new RegExp("^\\d{5}(-{0,1}\\d{4})?$");
+		var ca = new RegExp(/([ABCEGHJKLMNPRSTVXY]\d)([ABCEGHJKLMNPRSTVWXYZ]\d){2}/i);
+	
+		if (us.test(postalCode.toString())) {
+			return true;
+		}
+	
+		if (ca.test(postalCode.toString().replace(/\W+/g, ''))) {
+			return true;
+		}
+		return false;
+	}
+
+	var settings = new Object();
+	{
+		settings.item_data = {};
+		settings.item_key = "";
+		settings.onSuccess = function(){};
+		settings.is_quote = false;
+	}
+	
+    function checkWithPrompt(response)
+    {
+		if (!response.model_number) return;
+		
+		settings.item_data = response;
+		var item_data = settings.item_data;//convenience variable
+
+		$("#delivery_distance_dialog").modal('show');
+
+		$("#delivery_distance_dialog_body").html("").append(
+			$('<form>').attr({"id":"delivery_distance_dialog_form","class":"pad"}).append(
+				$('<p>').attr({
+					"id":"delivery_distance_invalid_zip_message",
+					"class":"alert alert-danger",
+					"style":"display:none"
+				}).html("Please enter a valid ZIP or Postal Code"),
+				$('<p>').attr({
+					"id":"delivery_distance_rejection_message",
+					"class":"alert alert-danger",
+					"style":"display:none"
+				}).html("We're sorry. We are unable to offer " + item_data.brand_name + " products to your current location as it is outside our approved " + item_data.brand_name + " Sales and Delivery Radius."),
+
+				$('<p>').attr({
+					"class":"model-desc m-l-25 m-r-25"
+				}).html(item_data.model_desc),
+				
+				$('<p>').addClass("model-branding-wrapper small text-muted m-l-25 m-r-25").append(
+					$('<strong>').addClass("model-brand model-brand-text").html(item_data.brand_name + "&nbsp;"),
+					$('<span>').addClass("model-number").html(item_data.model_number)
+				),
+				
+				$('<div>').addClass("row m-t-25 p-t-25 border-top").append(
+					$('<div>').addClass("col-md-5  m-t-20").append(
+						$('<img>').attr({"class":"img-responsive center-block","src": item_data.product_image})
+					),
+
+					$('<div>').addClass("col-md-5 col-md-offset-1 m-t-10").append(
+						$('<div>').addClass("form-group").append(
+							$('<label>').html("Enter ZIP / Postal Code to check availability").attr({
+								"for":"delivery_distance_zip_input"	
+							}),
+							$('<input>').attr({
+								"id":"delivery_distance_zip_input",
+								"name":"delivery_distance_zip_input",
+								"class":"form-control input-lg required",
+								"type":"text",
+								"placeholder":"ENTER ZIP CODE",
+								"required":"true"
+							})
+						),
+						$('<button>').html("Check Availability").attr({
+							"id":"view_control_accept",
+							"class":"btn btn-primary btn-lg btn-block",
+							"type":"button"
+						}),
+						$('<p>').addClass("small font-muted align-center m-t-20").append(
+							$('<span>').html("This item has manufacturer-enforced Sales and Delivery restrictions. Please enter your Zip / Postal Code to check manufacturer-approved Sales and Delivery Radius")
+						)
+					)
+				)
+			)
+		);
+					
+		function onSubmit(event)
+        {
+            event.preventDefault();
+            
+            $("#delivery_distance_rejection_message").hide();
+
+            var zip = $("#delivery_distance_zip_input").val().toUpperCase();
+
+            if (! postalFilter(zip))
+            {
+                $("#delivery_distance_invalid_zip_message").show();
+                return false;
+            }
+
+            // Must be okay
+            $("#delivery_distance_invalid_zip_message").hide();
+
+            // Check distance w/ server
+            var args = 'zip=' + zip;
+			args += '&is_quote=' + settings.is_quote;
+			args += '&item_key=' + settings.item_key;
+
+            function afterCheck(response)
+            {
+                if (!response.success)
+                {
+                    $("#delivery_distance_rejection_message").show();
+                    return false;
+                }
+
+                if (response.is_user_beyond_maximum_distance)
+                {
+                    $("#delivery_distance_rejection_message").show();
+                    return false;
+                }
+
+                // Allowed
+                settings.onSuccess && settings.onSuccess();
+                return false;
+            }
+
+            rwsAJAXJSWithWaitFade('GET', '/MAXIMUM_DISTANCE/CHECK-MAXIMUM-DISTANCE-BACKEND-ZIPS.JS?' + args, true, afterCheck);
+            return false;
+        }
+		
+        $("#delivery_distance_dialog_form").on('submit', onSubmit);
+		$("#view_control_accept").on('click', onSubmit);
+    };
+
+
+    var ret = {};
+
+	ret.checkURL = function(model_number, dest_url, item_options_bypass)
+	{
+		checkWithPrompt(model_number, 
+		function()
+		{ 
+			if ( item_options_bypass == true ) dest_url += "&ITEM_OPTIONS_BYPASS=TRUE"; document.location = dest_url; }
+		);
+	};
+
+	ret.checkSimple = function(item_key, zip, is_quote, onResponse)
+	{
+		var args = 'zip=' + zip;
+		args += '&is_quote=' + is_quote;
+		args += '&item_key=' + item_key;
+		
+		rwsAJAXJSWithWaitFade('GET', '/MAXIMUM_DISTANCE/CHECK-MAXIMUM-DISTANCE-BACKEND-ZIPS.JS?' + args, true, onResponse);
+	}
+	
+	ret.checkSimpleNoWaitFade = function(item_key, zip, is_quote, onResponse, async = true)
+	{
+		var args = 'zip=' + zip;
+		args += '&is_quote=' + is_quote;
+		args += '&item_key=' + item_key;
+		
+		rwsAJAXJS('GET', '/MAXIMUM_DISTANCE/CHECK-MAXIMUM-DISTANCE-BACKEND-ZIPS.JS?' + args, async, onResponse);
+	}
+	
+    ret.checkJS = function(item_key, onSuccess, is_quote)
+    {
+		settings.item_key = item_key;
+		settings.onSuccess = onSuccess;
+		settings.is_quote = is_quote;
+		
+		retrieveItemInfo(item_key, checkWithPrompt);
+    };
+
+	function retrieveItemInfo(item_key, onSet)
+	{
+		var args = 'item_key=' + item_key;
+		rwsAJAXJSWithWaitFade('GET', '/MAXIMUM_DISTANCE/GET-MAXIMUM-DISTANCE-ITEM-INFO.JS?' + args, true, onSet);
+	}
+	
+    ret.checkCart = function(elements_to_check, onSuccess, onRestricted, is_quote)
+    {
+		var zips = [];
+
+		if (! elements_to_check)
+        {
+            // Nothing to check
+            onSuccess && onSuccess();
+            return false;
+        }
+		
+		for (var i = 0; i < elements_to_check.length; i++)
+		{
+			var current_element;
+			if (typeof(elements_to_check[i]) == 'string')
+			{
+				current_element = document.getElementById(elements_to_check[i]);
+			}
+			else
+			{
+				current_element = elements_to_check[i];
+			}
+			
+			if (!current_element) continue;
+			
+			var zip = current_element.value;
+			if (!zip) continue;			
+			
+			if (! postalFilter(zip))
+			{
+				onRestricted && onRestricted();
+				return false;
+			}
+
+			if (!zips.includes(zip)) zips.push(zip);
+		}
+
+        // Check distance w/ server
+
+        function showWarning(rejected_items)
+        {
+			$("#delivery_distance_cart_dialog").modal('show');
+			$("#delivery_distance_cart_dialog_body").html("");
+
+			$.each(rejected_items, function(index, value)
+			{
+				$("#delivery_distance_cart_dialog_body").append(
+					
+					$('<div>').addClass("row pad").append(
+						$('<div>').addClass("col-md-3").append(
+							$('<div>').addClass("border pad").append(
+								$('<img>').attr({"class":"img-responsive center-block","src": value.product_image})
+							)
+						),
+						$('<div>').addClass("col-md-9").append(
+							$('<p>').html(value.model_desc).attr({
+								"class":"font-16 font-bold m-l-25 m-r-25"
+							}),
+							$('<p>').addClass("model-branding-wrapper small text-muted m-l-25 m-r-25").append(
+								$('<strong>').addClass("model-brand model-brand-text").html(value.brand_name + "&nbsp;"),
+								$('<span>').addClass("model-number").html(value.model_number)
+							)
+						)
+					) //row
+				);
+			
+			}) //each
+        }
+
+        function afterCheck(response)
+        {
+            if (! response.success)
+            {
+                onRestricted && onRestricted();
+                return;
+            }
+
+			if ( response.rejected_at_least_one_item )
+			{
+				showWarning(response.rejected_items);	
+				onRestricted && onRestricted();
+				return;
+			}
+			
+			if (zips.length > 0)
+			{
+				checkZip(zips.splice(0, 1));
+				return;
+			}
+
+			// Everything checked out.
+            onSuccess && onSuccess();
+        }
+
+		function checkZip(zip)
+		{
+			var args = 'zip=' + zip;
+			args += '&is_quote=' + settings.is_quote;
+			rwsAJAXJSWithWaitFade('GET', '/MAXIMUM_DISTANCE/CHECK-MAXIMUM-DISTANCE-BACKEND-ZIPS-FOR-CART-ITEMS.JS?' + args, true, afterCheck);
+		}
+		
+		checkZip(zips.splice(0, 1));
+    };
+
+    return ret;
+}());
+
