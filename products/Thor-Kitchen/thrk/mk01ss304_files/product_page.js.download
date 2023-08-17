@@ -1,0 +1,28 @@
+window.addEventListener('load', function() {
+		
+	});
+
+document.addEventListener('DOMContentLoaded', function() {
+	
+
+	function trackPrintRequests() {
+		const afterPrint = () => fetch('/accumulate-metric/print-request.html').catch(error => console.error(error));
+		window.onafterprint = afterPrint;
+	}
+
+	function trackDocumentDownloads(){
+		const onDownload = () => fetch('/accumulate-metric/product-document-downloaded.html').catch(error => console.error(error));
+		document.querySelectorAll('#tab-pane-docs a[href*="specsserver"]').forEach(element => {
+			element.addEventListener('click', onDownload);
+		})
+	}
+
+	// function trackSocialMediaShares(){
+	// 	const onShareEvent = event => fetch('/accumulate-metric/social-media-share.html?service=' + encodeURIComponent(event.data.service)).catch(error => console.error(error));
+ 	// 	addthis.addEventListener('addthis.menu.share', onShareEvent);
+	// }
+
+ 	trackPrintRequests();
+ 	trackDocumentDownloads();
+ 	// trackSocialMediaShares();
+});
