@@ -1,0 +1,176 @@
+var AddToCartManager = (function()
+{
+    var manager = new Object();
+
+	var add_to_cart_entry = {"key":"","type":0,"quantity":-2147483648,"warranty_length":-2147483648,"sell_as_id":"0","delivery_type":-2147483648,"zip_code":"","pick_group_options":[],"related_item_keys":[],"related_item_objects":[],"add_on_keys":[],"options_and_choices":[]};
+	
+	// Getters
+	manager.getAddToCartEntry 		= function() { return add_to_cart_entry; }
+	manager.getKey 					= function() { return add_to_cart_entry.key; }
+	manager.getType	 				= function() { return add_to_cart_entry.type; }
+	manager.getQuantity				= function() { return add_to_cart_entry.quantity; }
+	manager.getWarrantyLength 		= function() { return add_to_cart_entry.warranty_length; }
+	manager.getDeliveryType	 		= function() { return add_to_cart_entry.delivery_type; }
+	manager.getSellAsId				= function() { return add_to_cart_entry.sell_as_id; }
+	manager.getPickGroupOptions 	= function() { return add_to_cart_entry.pick_group_options; }
+	manager.getRelatedItemKeys 		= function() { return add_to_cart_entry.related_item_keys; }
+	manager.getAddOnKeys 			= function() { return add_to_cart_entry.add_on_keys; }
+	manager.getZipCode				= function() { return add_to_cart_entry.zip_code; }
+	
+	manager.setKey = function(key) { 
+		add_to_cart_entry.key = key; 
+	}
+
+	manager.saveToLocalStorage = function()
+	{
+		localStorage.setItem(add_to_cart_entry.key, JSON.stringify(add_to_cart_entry));
+	}
+	
+	manager.setKey = function(new_key)
+	{
+		if ( new_key != null ) add_to_cart_entry.key = new_key;
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setQuantity = function(new_quantity)
+	{
+		if ( isNaN(new_quantity) == false ) add_to_cart_entry.quantity = new_quantity;
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setWarrantyLength = function(new_warranty)
+	{
+		if ( isNaN(new_warranty) == false ) add_to_cart_entry.warranty_length = new_warranty;
+		
+		this.saveToLocalStorage();
+	}
+
+	manager.updateWarrantyLength = function(new_warranty = null, entry_key, onResponse) {
+		const cart_id = localStorage.getItem('cart_id');
+		
+		if (!cart_id || !entry_key || new_warranty === null) return;
+		
+		const data = `cart_id=${cart_id}&cart_entry_key_raw=${entry_key}&warranty=${new_warranty}`;
+
+		rwsAJAXPostAJAX('/CART_AJAX/CART_ENTRY/SET_WARRANTY', data, true, onResponse);
+	}
+	
+	manager.setDeliveryType = function(new_delivery)
+	{
+		if ( isNaN(new_delivery) == false ) add_to_cart_entry.delivery_type = new_delivery;
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setZipCode = function(new_zip)
+	{
+		if ( new_zip != null ) add_to_cart_entry.zip_code = new_zip;
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setSellAsId = function(new_sell_as_id)
+	{
+		if ( isNaN(new_sell_as_id) == false ) add_to_cart_entry.sell_as_id = new_sell_as_id;
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setPickGroupOption = function(id, key)
+	{
+		if ( add_to_cart_entry.pick_group_options == null ) add_to_cart_entry.pick_group_options = [];
+		if ( isNaN(id) == false && key != null ) add_to_cart_entry.pick_group_options.push({"pick_group_options_id":id, "pick_group_options_item_key":key});
+
+		this.saveToLocalStorage();		
+	}
+	
+	manager.addRelatedItemKey = function(key)
+	{
+		if ( add_to_cart_entry.related_item_keys == null ) add_to_cart_entry.related_item_keys = [];
+		if ( key != null ) add_to_cart_entry.related_item_keys.push(key);
+		
+		this.saveToLocalStorage();
+	}
+
+	manager.addRelatedItemKeyFlexibleSet = function(key, quantity, warranty_length, sell_as_id, delivery_type)
+	{
+		if ( add_to_cart_entry.related_item_objects == null ) add_to_cart_entry.related_item_objects = [];
+
+		const obj = {
+			key,
+			quantity,
+			warranty_length,
+			sell_as_id,
+			delivery_type
+		};
+
+		if ( key ) add_to_cart_entry.related_item_objects.push(obj);
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.addAddOnKey = function(key)
+	{
+		if ( add_to_cart_entry.add_on_keys == null ) add_to_cart_entry.add_on_keys = [];
+		if ( key != null ) add_to_cart_entry.add_on_keys.push(key);
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setup = function(key)
+	{
+		var loaded = localStorage.getItem(key)
+		
+		if ( loaded != null )
+		{
+			add_to_cart_entry = JSON.parse(loaded);
+		}
+		else
+		{
+			// Couldn't find it in local storage, so create a fresh cart entry with this key
+			add_to_cart_entry = {"key":"","type":0,"quantity":-2147483648,"warranty_length":-2147483648,"sell_as_id":"0","delivery_type":-2147483648,"zip_code":"","pick_group_options":[],"related_item_keys":[],"related_item_objects":[],"add_on_keys":[],"options_and_choices":[]};
+			this.setKey(key);
+		}
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setTypeQuoteRequest = function() 
+	{ 
+		add_to_cart_entry.type = 1; 
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.setTypeOrder = function() 
+	{ 
+		add_to_cart_entry.type = 0; 
+		
+		this.saveToLocalStorage();
+	}
+	
+	manager.addToCart = function(afterAddToCart)
+	{
+		var form = createElement("form");
+		form.appendChild(createElement('input', {'name':'content', 'value':JSON.stringify(add_to_cart_entry)}));
+
+		var data = new FormData(form);
+		rwsAJAXPostFormAJAXWithWaitFade('/CART_AJAX/ADD', data, afterAddToCart);
+		
+		localStorage.removeItem(add_to_cart_entry.key);
+	}
+	
+	manager.addAccessoryToCartEntryAfter = function(cart_entry_key, add_on_key, onResponse)
+	{
+		var form = createElement("form");
+		form.appendChild(createElement('input', {'name':'cart_entry_key_raw', 'value':cart_entry_key}));
+		form.appendChild(createElement('input', {'name':'add_on_key', 'value':add_on_key}));
+
+		var data = new FormData(form);
+		rwsAJAXPostFormAJAXWithWaitFade('/CART_AJAX/ACC/ADD', data, onResponse);
+	}
+	
+	return manager;
+}());
