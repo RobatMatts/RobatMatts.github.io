@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="zh-CN" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="description" content="Galanz operates one of the world’s largest appliance manufacturing centers, where we bring our smart and dependable home appliances to life, which have been ready for exporting to the globe.">
+		<meta name="theme-color" content="#3b8ced"/>	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	        <script type="text/javascript">
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                var originalAddEventListener = EventTarget.prototype.addEventListener,
+                    oldWidth = window.innerWidth;
+
+                EventTarget.prototype.addEventListener = function (eventName, eventHandler, useCapture) {
+                    if (eventName === "resize") {
+                        originalAddEventListener.call(this, eventName, function (event) {
+                            if (oldWidth === window.innerWidth) {
+                                return;
+                            }
+                            else if (oldWidth !== window.innerWidth) {
+                                oldWidth = window.innerWidth;
+                            }
+                            if (eventHandler.handleEvent) {
+                                eventHandler.handleEvent.call(this, event);
+                            }
+                            else {
+                                eventHandler.call(this, event);
+                            };
+                        }, useCapture);
+                    }
+                    else {
+                        originalAddEventListener.call(this, eventName, eventHandler, useCapture);
+                    };
+                };
+            };
+        </script>
+		<title>Galanz &#8211; Thoughtful Engineering</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Galanz - Thoughtful Engineering &raquo; Feed" href="https://www.galanz.com/us/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Galanz - Thoughtful Engineering &raquo; 评论Feed" href="https://www.galanz.com/us/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.galanz.com\/us\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.11"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.galanz.com/us/wp-includes/css/dist/block-library/style.min.css?ver=5.4.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://www.galanz.com/us/wp-includes/css/dist/block-library/theme.min.css?ver=5.4.11' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.galanz.com/us/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.galanz.com/us/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.2' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='the7-Defaults-css'  href='https://www.galanz.com/us/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=5.4.11' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='vc_lte_ie9-css'  href='https://www.galanz.com/us/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.5' type='text/css' media='screen' />
+<![endif]-->
+<link rel='stylesheet' id='js_composer_front-css'  href='https://www.galanz.com/us/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-web-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto:400,600,700|Roboto+Condensed:400,600,700' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-main-css'  href='https://www.galanz.com/us/wp-content/themes/the7/css/main.min.css?ver=8.5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='the7-font-css'  href='https://www.galanz.com/us/wp-content/themes/the7/fonts/icomoon-the7-font/icomoon-the7-font.min.css?ver=8.5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom-css'  href='https://www.galanz.com/us/wp-content/uploads/the7-css/custom.css?ver=6f2c7dab3fec' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-media-css'  href='https://www.galanz.com/us/wp-content/uploads/the7-css/media.css?ver=6f2c7dab3fec' type='text/css' media='all' />
+<link rel='stylesheet' id='the7-mega-menu-css'  href='https://www.galanz.com/us/wp-content/uploads/the7-css/mega-menu.css?ver=6f2c7dab3fec' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://www.galanz.com/us/wp-content/themes/the7/style.css?ver=8.5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-style-css'  href='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.19.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-headings-style-css'  href='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/headings.min.css?ver=3.19.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.galanz.com/us/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dtLocal = {"themeUrl":"https:\/\/www.galanz.com\/us\/wp-content\/themes\/the7","passText":"\u8981\u67e5\u770b\u8be5\u53d7\u4fdd\u62a4\u7684\u6587\u7ae0\uff0c\u8bf7\u5728\u4e0b\u9762\u8f93\u5165\u5bc6\u7801\uff1a","moreButtonText":{"loading":"\u52a0\u8f7d\u4e2d\u2026\u2026","loadMore":"\u52a0\u8f7d\u66f4\u591a"},"postID":"87","ajaxurl":"https:\/\/www.galanz.com\/us\/wp-admin\/admin-ajax.php","REST":{"baseUrl":"https:\/\/www.galanz.com\/us\/index.php?rest_route=\/the7\/v1","endpoints":{"sendMail":"\/send-mail"}},"contactMessages":{"required":"One or more fields have an error. Please check and try again.","terms":"Please accept the privacy policy.","fillTheCaptchaError":"Please, fill the captcha."},"captchaSiteKey":"","ajaxNonce":"66090e9d31","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"off","lazyLoading":false,"accentColor":{"mode":"solid","color":"#3b8ced"},"desktopHeader":{"height":78},"floatingHeader":{"showAfter":150,"showMenu":true,"height":80,"logo":{"showLogo":true,"html":"<img class=\" preload-me\" src=\"https:\/\/www.galanz.com\/us\/wp-content\/uploads\/2020\/07\/galanz.png\" srcset=\"https:\/\/www.galanz.com\/us\/wp-content\/uploads\/2020\/07\/galanz.png 133w\" width=\"133\" height=\"30\"   sizes=\"133px\" alt=\"Galanz - Thoughtful Engineering\" \/>","url":"https:\/\/www.galanz.com\/us\/"}},"topLine":{"floatingTopLine":{"logo":{"showLogo":false,"html":""}}},"mobileHeader":{"firstSwitchPoint":1100,"secondSwitchPoint":778,"firstSwitchPointHeight":60,"secondSwitchPointHeight":60},"stickyMobileHeaderFirstSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/www.galanz.com\/us\/wp-content\/uploads\/2020\/07\/galanz.png\" srcset=\"https:\/\/www.galanz.com\/us\/wp-content\/uploads\/2020\/07\/galanz.png 133w\" width=\"133\" height=\"30\"   sizes=\"133px\" alt=\"Galanz - Thoughtful Engineering\" \/>"}},"stickyMobileHeaderSecondSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/www.galanz.com\/us\/wp-content\/uploads\/2020\/07\/galanz.png\" srcset=\"https:\/\/www.galanz.com\/us\/wp-content\/uploads\/2020\/07\/galanz.png 133w\" width=\"133\" height=\"30\"   sizes=\"133px\" alt=\"Galanz - Thoughtful Engineering\" \/>"}},"content":{"textColor":"#8b8d94","headerColor":"#333333"},"sidebar":{"switchPoint":992},"boxedWidth":"1340px","stripes":{"stripe1":{"textColor":"#72777d","headerColor":"#3c3e45"},"stripe2":{"textColor":"#f4f4f5","headerColor":"#f4f4f5"},"stripe3":{"textColor":"#ffffff","headerColor":"#ffffff"}}},"VCMobileScreenWidth":"768"};
+var dtShare = {"shareButtonText":{"facebook":"\u5206\u4eab\u5230Facebook","twitter":"Tweet","pinterest":"Pin it\uff08\u793e\u4ea4\uff09","linkedin":"\u5206\u4eab\u5230Linkedin","whatsapp":"\u5206\u4eab\u5230Whatsapp"},"overlayOpacity":"85"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/themes/the7/js/above-the-fold.min.js?ver=8.5.0.1'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.19.0'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/headings.min.js?ver=3.19.0'></script>
+<link rel='https://api.w.org/' href='https://www.galanz.com/us/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.galanz.com/us/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.galanz.com/us/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.11" />
+<link rel="canonical" href="https://www.galanz.com/us/" />
+<link rel='shortlink' href='https://www.galanz.com/us/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.galanz.com/us/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.galanz.com%2Fus%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.galanz.com/us/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.galanz.com%2Fus%2F&#038;format=xml" />
+<!-- StackAdapt Pixel Code -->
+<script>
+	!function(s,a,e,v,n,t,z){
+		if(s.saq)return;
+		n=s.saq=function(){
+			n.callMethod?n.callMethod.apply(n,arguments):
+			n.queue.push(arguments)
+		};
+		if(!s._saq)
+			s._saq=n;
+		n.push=n;
+		n.loaded=!0;
+		n.version='1.0';
+		n.queue=[];
+		t=a.createElement(e);
+		t.async=!0;
+		t.src=v;
+		z=a.getElementsByTagName(e)[0];
+		z.parentNode.insertBefore(t,z)}(window,document,'script','https://tags.srv.stackadapt.com/events.js');
+	saq('ts', 'weT_de1Qtstkp5knWe3EzQ');
+</script>
+<!--End StackAdapt Pixel Code -->
+<!-- Meta Pixel Code -->
+<meta name="facebook-domain-verification" content="504vjro0wlvcab3043rndija89fkjm" />
+<script>
+  !function(f,b,e,v,n,t,s){
+	  if(f.fbq)
+		  return;
+	  n=f.fbq=function(){
+		  n.callMethod?n.callMethod.apply(n,arguments):
+		  n.queue.push(arguments)
+	  };
+	  if(!f._fbq)
+		  f._fbq=n;
+	  n.push=n;
+	  n.loaded=!0;
+	  n.version='2.0';
+	  n.queue=[];
+	  t=b.createElement(e);
+	  t.async=!0;
+	  t.src=v;
+	  s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)
+  }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1126559364556044');
+  fbq('track', 'PageView');
+	if(window.location.href != 'https://www.galanz.com/us/' && window.location.href != 'https://www.galanz.com/us/?page_id=740' && window.location.href != 'https://www.galanz.com/us/?page_id=5715' && window.location.href != 'https://www.galanz.com/us/?page_id=1428' ){
+		fbq('track', 'ViewContent');
+	}
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1126559364556044&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code --><meta property="og:site_name" content="Galanz - Thoughtful Engineering" />
+<meta property="og:title" content="Home" />
+<meta property="og:url" content="https://www.galanz.com/us/" />
+<meta property="og:type" content="website" />
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.2.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://www.galanz.com/us/wp-content/uploads/2020/10/Galanz-logo.png" type="image/png" sizes="32x32"/><script type="text/javascript">function setREVStartSize(e){			
+			try {								
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw===0 || isNaN(pw) ? window.innerWidth : pw;
+				e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+				if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+					newh = Math.max(e.mh,window.innerHeight);				
+				else{					
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+					e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+										
+					var nl = new Array(e.rl.length),
+						ix = 0,						
+						sl;					
+					e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+					for (var i in e.rl) nl[i] = e.rl[i]<window.innerWidth ? 0 : e.rl[i];
+					sl = nl[0];									
+					for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+					var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+
+					newh =  (e.type==="carousel" && e.justify==="true" ? e.gh[ix] : (e.gh[ix] * m)) + (e.tabh + e.thumbh);
+				}			
+				
+				if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+				document.getElementById(e.c).height = newh;
+				window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+			} catch(e){
+				console.log("Failure at Presize of Slider:" + e)
+			}					   
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			#page .scroll-top{display:none;}		</style>
+		<style type="text/css" data-type="vc_custom-css">#main.sidebar-none.sidebar-divider-off  {
+    padding-top: 0 ;
+    padding-bottom: 74px ;
+}
+
+#content{
+    margin-top: -8%;
+}
+@media (max-width: 768px) {    
+   .wpb_text_column {
+     margin-bottom:0px;
+    }
+    .videoMedia{
+        height: 30vh;
+        margin-top: -6%;
+    }
+}
+/*10px的距离*/
+#content .wpb_text_column :last-child, .wpb_text_column :last-child{
+    margin-bottom:0px !important; 
+}
+.vc_custom_1615875103121{
+    margin-top:0px !important;
+}
+/*距离距离*/
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li{
+    margin-bottom:0px !important;
+}
+/*视频轮播图按钮隐藏*/
+.tp-video-play-button {
+    width: 50px;
+    height: 50px;
+    display: none !important;
+    text-align: center !important;
+    vertical-align: top;
+    line-height: 50px !important;
+    font-size: 30px !important; 
+}
+@media (max-width: 768px) {    
+    .vc_col-sm-12 .vc_custom_1595230691838{
+      margin-top: 1rem !important;
+    }
+    .vc_col-sm-6{
+       width: 18rem;
+       margin: 0 auto;  
+    }
+    .vc_custom_1621825506733 video{
+      height:205px;  
+    }
+    .vc_col-sm-6 .vc_custom_1622255465184{
+        margin-left:15px !important;
+    }
+}
+@media (max-width: 768px) {    
+    .vc_custom_1599033785999 .vc_col-sm-12 .vc_custom_1615875103121 {
+       margin-top:0px !important; 
+    }
+}
+@media (max-width: 768px) {
+    .alignleft {
+       margin-top: 20px; 
+       float: none; 
+    }
+}
+.boxCss{
+    text-align: center; 
+    border-bottom: 2px solid white; 
+    width: 15.05rem; 
+    margin: 0 auto;
+}
+.explore{
+    margin-bottom: 2px; 
+    font-size: 25px; 
+    font-weight: 600; 
+    color: white;
+}
+
+.wp-image-8173{
+    transition: all .6s;
+}
+.wp-image-8173:hover{
+  transform: scale(1.05); 
+}
+#rev_slider_33_1_wrapper{
+    background: transparent;
+    margin: 0px auto;
+    overflow: visible;
+    height: 954px;
+    width: 88vw;
+    padding-top: 2%;
+}
+/*相对定位*/
+/*.inline-header{*/
+/*    position: relative;*/
+/*}*/
+/*.first-slider{*/
+/*    top:-80px;*/
+/*}*/
+/*.solid-line{*/
+/*   position: absolute !important;*/
+/*   top:-16px;*/
+/*   z-index: 11;*/
+/*}*/
+
+
+
+
+/*#content{*/
+/*    margin-top: 0%;*/
+/*}*/
+/*.solid-line{*/
+/*    position: absolute !important;*/
+/*    top: 71px;*/
+/*    z-index: 11;*/
+/*}*/
+
+/*.service-img1>div>p>img:hover{*/
+/*    background:url(https://www.galanz.com/us/wp-content/uploads/2020/07/S2.png);*/
+/*}*/
+
+
+
+
+
+
+
+
+
+/*#center2-id a{*/
+/*    font-size:15px !important;*/
+/*}*/
+
+    
+
+/*#center2-id .more-div{*/
+/*    font-size: 33px !important;*/
+/*}*/
+.home-display{
+    display:none;
+}
+
+.Product_Registration h3{
+    white-space: nowrap;
+}
+@media (max-width: 768px) {    
+    .Product_Registration h3 {
+        white-space: inherit; 
+    }
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1642748342616{margin-bottom: 0px !important;}.vc_custom_1631080155168{margin-bottom: 0px !important;}.vc_custom_1621327976411{margin-bottom: 0px !important;}.vc_custom_1599115635923{margin-bottom: 0px !important;padding-top: 0px !important;}.vc_custom_1599115643098{margin-bottom: 0px !important;padding-top: 0px !important;}.vc_custom_1599115653389{padding-top: 0px !important;}.vc_custom_1599033785999{padding-top: 0px !important;}.vc_custom_1644990165337{padding-top: 0px !important;}.vc_custom_1599033785999{padding-top: 0px !important;}.vc_custom_1595064263214{margin-bottom: 0px !important;}.vc_custom_1595230691838{margin-bottom: 0px !important;}.vc_custom_1595230691838{margin-bottom: 0px !important;}.vc_custom_1618471402074{margin-bottom: 0px !important;border-top-width: 10px !important;}.vc_custom_1618468765823{margin-top: 66px !important;margin-bottom: 20px !important;}.vc_custom_1594708945386{padding-right: 13px !important;padding-left: 13px !important;}.vc_custom_1593322714737{padding-right: 13px !important;padding-left: 13px !important;}.vc_custom_1593322904799{padding-right: 13px !important;padding-left: 13px !important;}.vc_custom_1615873174176{margin-bottom: 0px !important;padding-top: 24px !important;padding-right: 24px !important;padding-bottom: 0px !important;padding-left: 24px !important;background-color: #000000 !important;}.vc_custom_1615873296189{margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;background-color: #000000 !important;}.vc_custom_1615873181096{margin-bottom: 0px !important;padding-top: 24px !important;padding-right: 24px !important;padding-bottom: 0px !important;padding-left: 24px !important;background-color: #000000 !important;}.vc_custom_1615873303213{margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;background-color: #000000 !important;}.vc_custom_1615873186989{margin-bottom: 0px !important;padding-top: 24px !important;padding-right: 24px !important;padding-bottom: 0px !important;padding-left: 24px !important;background-color: #000000 !important;}.vc_custom_1615873310374{margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;background-color: #000000 !important;}.vc_custom_1615873193591{margin-bottom: 0px !important;padding-top: 24px !important;padding-right: 24px !important;padding-bottom: 0px !important;padding-left: 24px !important;background-color: #000000 !important;}.vc_custom_1615873319902{margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;background-color: #000000 !important;}.vc_custom_1615873200951{margin-bottom: 0px !important;padding-top: 24px !important;padding-right: 24px !important;padding-bottom: 0px !important;padding-left: 24px !important;background-color: #000000 !important;}.vc_custom_1615873327333{margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;background-color: #000000 !important;}.vc_custom_1615873210206{margin-bottom: 0px !important;padding-top: 24px !important;padding-right: 24px !important;padding-bottom: 0px !important;padding-left: 24px !important;background-color: #000000 !important;}.vc_custom_1615873334500{margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;background-color: #000000 !important;}.vc_custom_1594891844507{margin-bottom: 0px !important;padding-top: 0px !important;}.vc_custom_1594954546471{margin-bottom: 0px !important;}.vc_custom_1594891844507{margin-bottom: 0px !important;padding-top: 0px !important;}.vc_custom_1594886223131{margin-bottom: 0px !important;}.vc_custom_1594891819644{padding-top: 0px !important;}.vc_custom_1594957151936{margin-bottom: 0px !important;}.vc_custom_1642730266074{margin-top: 20px !important;}.vc_custom_1645006274340{margin-bottom: 0px !important;}.vc_custom_1644483704920{margin-bottom: 0px !important;}.vc_custom_1644481673111{margin-bottom: 0px !important;}.vc_custom_1642730876104{margin-top: 20px !important;}.vc_custom_1594975548187{margin-top: 40px !important;margin-bottom: 0px !important;}.vc_custom_1606180295389{padding-right: 95px !important;padding-left: 95px !important;}.vc_custom_1593411036861{padding-right: 95px !important;padding-left: 95px !important;}.vc_custom_1593411054437{padding-right: 95px !important;padding-left: 95px !important;}.vc_custom_1634352770695{margin-bottom: 0px !important;}.vc_custom_1634352745872{margin-bottom: 0px !important;}.vc_custom_1634352727561{margin-bottom: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><script type="text/javascript">
+  jQuery(document).ready(function() {
+		
+		  let menuNav = document.querySelectorAll('#primary-menu a')
+     for (let i = 0; i < menuNav.length; i++) {
+    	 menuNav[i].addEventListener('focus',function() {
+				  console.log(this.children[0].children[0])
+				  //this.parentNode.setAttribute('aria-haspopup','true')
+				  //this.parentNode.setAttribute('aria-expended','true')
+				  //this.parentNode.setAttribute('class','dt-hovered show-mega-menu show-mega-menu-content')
+				  //console.log(this.parentNode)
+				  
+     })
+    }
+		
+    jQuery("#emailButton").click(function() {
+
+      // var email = document.getElementById("emailInput").value;
+      var email =   jQuery("#emailInput").val()
+      if(!email){
+        alert("enter email adddatas");
+        return;
+      }
+
+      var reg = new RegExp("^[a-z0-9A-Z]+[-|a-z0-9A-Z._]+@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-z]{2,}$");
+
+      if (!reg.test(email)) return alert('Please enter the correct email adddatas');
+
+
+      jQuery.ajax({
+        type: "get",
+        url: "https://www.galanzamericas.com/glz-email/email/subscribe/apply",
+        async: true,
+        data: {
+          email: email,
+          state:10
+
+        },
+        dataType: 'json',
+        success: function(data) {
+
+          if (data.code == 200) {
+            alert("Your email has been confirmed by Glanz US official website. Please check whether your email has received the confirmation letter about the [application] email subscription. After replying to the confirmation letter, the application will take effect formally. Thank you for your support.");
+          } else {
+
+            if (data.code == 10000) alert('Subscribed to Galanz!');
+            else if (data.code == 20000) alert('You haven\'t subscribed to Galanz yet!');
+            else alert(data.code + ' ' + data.message);
+
+          }
+
+          jQuery("#emailInput").val("");
+        },
+        error: function(data) {
+          console.log("error");
+        }
+      });
+
+    });
+
+    jQuery("#emailsButton").click(function() {
+
+      // var email = document.getElementById("emailInput").value;
+      var email =   jQuery("#emailsInput").val()
+      if(!email){
+        alert("enter email adddatas");
+        return;
+      }
+
+      var reg = new RegExp("^[a-z0-9A-Z]+[-|a-z0-9A-Z._]+@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-z]{2,}$");
+
+      if (!reg.test(email)) return alert('Please enter the correct email adddatas');
+
+
+      jQuery.ajax({
+        type: "get",
+        url: "https://www.galanzamericas.com/glz-email/email/subscribe/apply",
+        async: true,
+        data: {
+          email: email,
+          state:20
+
+        },
+        dataType: 'json',
+        success: function(data) {
+
+          if (data.code == 200) {
+            alert("Your email has been confirmed by Glanz US official website. Please check whether your email has received the confirmation letter about unsubscribe. After replying to the confirmation letter, the unsubscribe will take effect. Thank you for your support.");
+          } else {
+
+            if (data.code == 10000) alert('Subscribed to Galanz!');
+            else if (data.code == 20000) alert('You haven\'t subscribed to Galanz yet!');
+            else alert(data.code + ' ' + data.message);
+
+          }
+
+          jQuery("#emailsInput").val("");
+        },
+        error: function(data) {
+          console.log("error");
+        }
+      });
+
+    });
+
+    jQuery("#wave-appliance .wavebutton1 button ").click(function() {
+
+      jQuery("#wave-appliance").hide(),
+        jQuery("#menu_id").show()
+
+
+    })
+
+
+    // jQuery("#wave-appliance .wavebutton1 button ").click(function() {
+
+
+    //     jQuery("#menu_id").show()
+
+
+    // })
+
+    jQuery("#menu_id .menu-arrow i").click(function() {
+      jQuery("#wave-appliance").show(),
+        jQuery("#menu_id").hide()
+    })
+
+    jQuery("#wave-appliance .wavebutton2 button ").click(function() {
+      jQuery("#wave-appliance").hide(),
+        jQuery("#menu_ids").show()
+    })
+
+    jQuery("#menu_ids .menu-arrow i").click(function() {
+      jQuery("#wave-appliance").show(),
+        jQuery("#menu_ids").hide()
+    })
+
+
+    jQuery(".div-color1").click(function(){
+      jQuery(this).addClass('border'),
+        jQuery(".div-color2").removeClass('border'),
+        jQuery(".div-color3").removeClass('border'),
+        jQuery(".div-color4").removeClass('border'),
+        jQuery(".div-color5").removeClass('border'),
+        jQuery(".details_rotation").show(),
+        jQuery(".details1_rotation").hide(),
+        jQuery(".details2_rotation").hide(),	jQuery(".details3_rotation").hide(),	 jQuery(".details4_rotation").hide(),
+
+        jQuery(".font-color1").show(),
+        jQuery(".font-color2").hide(),
+        jQuery(".font-color3").hide(),
+        jQuery(".font-color4").hide(),
+        jQuery(".font-color5").hide()
+    })
+
+    jQuery(".div-color2").click(function(){
+      jQuery(this).addClass('border'),
+
+        jQuery(".div-color1").removeClass('border'),
+        jQuery(".div-color1").css({border:"1px solid grey"}),
+        jQuery(".div-color3").removeClass('border'),
+        jQuery(".div-color4").removeClass('border'),
+        jQuery(".div-color5").removeClass('border'),
+        jQuery(".details1_rotation").show(),
+        jQuery(".details_rotation").hide(),
+        jQuery(".details2_rotation").hide(),
+        jQuery(".details3_rotation").hide(),
+        jQuery(".details4_rotation").hide(),
+
+        jQuery(".font-color1").hide(),
+        jQuery(".font-color2").show(),
+        jQuery(".font-color3").hide(),
+        jQuery(".font-color4").hide(),
+        jQuery(".font-color5").hide()
+    })
+
+    jQuery(".div-color3").click(function(){
+      jQuery(this).addClass('border'),
+
+        jQuery(".div-color1").removeClass('border'),
+        jQuery(".div-color1").css({border:"1px solid grey"}),
+        jQuery(".div-color2").removeClass('border'),
+        jQuery(".div-color4").removeClass('border'),
+        jQuery(".div-color5").removeClass('border'),
+        jQuery(".details2_rotation").show(),
+        jQuery(".details_rotation").hide(),
+        jQuery(".details1_rotation").hide(),
+        jQuery(".details3_rotation").hide(),
+        jQuery(".details4_rotation").hide(),
+
+        jQuery(".font-color1").hide(),
+        jQuery(".font-color2").hide(),
+        jQuery(".font-color3").show(),
+        jQuery(".font-color4").hide(),
+        jQuery(".font-color5").hide()
+    })
+
+    jQuery(".div-color4").click(function(){
+      jQuery(this).addClass('border'),
+
+        jQuery(".div-color1").removeClass('border'),
+        jQuery(".div-color1").css({border:"1px solid grey"}),
+        jQuery(".div-color2").removeClass('border'),
+        jQuery(".div-color3").removeClass('border'),
+        jQuery(".div-color5").removeClass('border'),
+        jQuery(".details3_rotation").show(),
+        jQuery(".details_rotation").hide(),
+        jQuery(".details1_rotation").hide(),
+        jQuery(".details2_rotation").hide()
+      jQuery(".details4_rotation").hide()
+
+
+      jQuery(".font-color1").hide(),
+        jQuery(".font-color2").hide(),
+        jQuery(".font-color3").hide(),
+        jQuery(".font-color4").show(),
+        jQuery(".font-color5").hide()
+    });
+
+    jQuery(".div-color5").click(function(){
+      jQuery(this).addClass('border'),
+        jQuery(".div-color1").removeClass('border'),
+        jQuery(".div-color1").css({border:"1px solid grey"}),
+        jQuery(".div-color2").removeClass('border'),
+        jQuery(".div-color3").removeClass('border'),
+        jQuery(".div-color4").removeClass('border'),
+        jQuery(".details4_rotation").show(),
+        jQuery(".details_rotation").hide(),
+        jQuery(".details1_rotation").hide(),
+        jQuery(".details2_rotation").hide()
+      jQuery(".details3_rotation").hide()
+
+      jQuery(".font-color1").hide(),
+        jQuery(".font-color2").hide(),
+        jQuery(".font-color3").hide(),
+        jQuery(".font-color4").hide(),
+        jQuery(".font-color5").show()
+    });
+
+
+    jQuery(".div-color1").mouseover(function() {    jQuery(this).css("cursor","pointer");
+    });
+    jQuery(".div-color2").mouseover(function() {    jQuery(this).css("cursor","pointer");
+    });
+    jQuery(".div-color3").mouseover(function() {    jQuery(this).css("cursor","pointer");
+    });
+    jQuery(".div-color4").mouseover(function() {    jQuery(this).css("cursor","pointer");
+    });
+    jQuery(".div-color5").mouseover(function() {    jQuery(this).css("cursor","pointer");
+    });
+
+    jQuery(".service-img1 img").mouseover(function() {    jQuery(".service-img1 img").attr("src","https://www.galanz.com/us/wp-content/uploads/2020/08/s1_111.png");
+      jQuery(".service-img1 img").attr("srcset","https://www.galanz.com/us/wp-content/uploads/2020/08/s1_111.png");
+    })
+
+    jQuery(".service-img1 img").mouseout(function() {
+      jQuery(".service-img1 img").attr("srcset","https://www.galanz.com/us/wp-content/uploads/2020/08/S1-1.png");
+    })
+
+
+    jQuery(".service-img2 img").mouseover(function() {
+      jQuery(".service-img2 img").attr("src","https://www.galanz.com/us/wp-content/uploads/2020/07/S21.png");
+      jQuery(".service-img2 img").attr("srcset","https://www.galanz.com/us/wp-content/uploads/2020/07/S21.png");
+    })
+
+    jQuery(".service-img2 img").mouseout(function() {
+      jQuery(".service-img2 img").attr("srcset","https://www.galanz.com/us/wp-content/uploads/2020/07/S2.png");
+    })
+
+
+// jQuery(".service-img3 img").mouseover(function() {
+
+//     jQuery(".service-img3 img").stop().animate({src:'https://www.galanz.com/us/wp-content/uploads/2020/07/S31.png'},1000);
+
+
+
+// jQuery(".service-img3 img").mouseover(function() {
+
+//     jQuery(".service-img3 img").animate({src:'https://www.galanz.com/us/wp-content/uploads/2020/07/S31.png'},1000);
+
+    jQuery(".service-img3 img").mouseover(function() {
+      jQuery(".service-img3 img").attr("src","https://www.galanz.com/us/wp-content/uploads/2020/07/S31.png");
+      jQuery(".service-img3 img").attr("srcset","https://www.galanz.com/us/wp-content/uploads/2020/07/S31.png");
+    })
+
+    jQuery(".service-img3 img").mouseout(function() {
+      jQuery(".service-img3 img").attr("srcset","https://www.galanz.com/us/wp-content/uploads/2020/07/S3.png");
+    })
+
+  });
+
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXD0L056XP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZXD0L056XP');
+</script>
+<script>
+  jQuery(document).ready(function() {
+    jQuery(".Product_Registration_img img").mouseover(function() {
+      jQuery(".Product_Registration_img img").attr("src",
+        "https://www.galanz.com/us/wp-content/uploads/2020/11/s1_111.png");
+      jQuery(".Product_Registration_img img").attr("srcset",
+        "https://www.galanz.com/us/wp-content/uploads/2020/11/s1_111.png");
+    })
+
+    jQuery(".Product_Registration_img img").mouseout(function() {
+      jQuery(".Product_Registration_img img").attr("srcset",
+        "https://www.galanz.com/us/wp-content/uploads/2020/11/S1-1.png");
+    });
+  });
+</script>
+
+<script>
+  window.onload = function () {
+
+    var submitBtn = document.getElementById("submit");
+
+    submitBtn.onclick = function() {
+      if (!document.getElementById("checkbox").checked) {
+        document.getElementById("box").style.cssText = "display:block;font-size: 10px;color: #D0021B;";
+        return false;
+      }
+
+    }
+  };
+
+</script>
+
+<script>
+  function opens(url, name, iWidth, iHeight) {
+    var url = 'https://www.galanz.com/us/?page_id=6125';
+    var name;
+    var iWidth = 800;
+    var iHeight = 600;
+    var iTop = (window.screen.availHeight - 30 - iHeight) / 2;
+    var iLeft = (window.screen.availWidth - 10 - iWidth) / 2;
+    document.getElementById('gh').onclick = function() {
+      window.open(url, 'name', 'height=' + iHeight + ',innerHeight=' + iHeight + ',width=' + iWidth + ',innerWidth=' +
+        iWidth + ',top=' + iTop + ',left=' + iLeft +
+        ',toolbar=no,menubar=no,scrollbars=auto,resizeable=no,location=no,status=no')
+    };
+  }
+</script>
+
+<script>
+  function change() {
+    document.getElementById("upload_file_tmps").value = document.getElementById("upload_file").value;
+  }
+	
+</script>
+
+<script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      	 token: "a4e437c7-5ea1-4bc6-b9fe-4e076ab03dc9",
+	 host: "https://visionet-512734969397718416-help.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?
+  initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,
+  e.src="https://visionet-512734969397718416-help.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
+  function initiateCall(){initialize(document,"Freshchat-js-sdk")}
+  window.addEventListener?window.addEventListener("load",initiateCall,!1):
+  window.attachEvent("load",initiateCall,!1);
+</script>
+
+
+<script type="text/javascript" src="js/threesixty.js"></script><style id='the7-custom-inline-css' type='text/css'>
+#mobile-menu>li>a{
+	padding-right:0px;
+}
+@media (max-width: 768px){
+	.product-item .product-name-slider .wpb_wrapper {
+    padding-left: 11px !important;
+}
+}
+
+.popup-search .popup-search-wrap{
+	background:#000000;
+}
+
+/*隐藏搜索内容作者信息*/
+.entry-meta{
+	display:none;
+}
+
+/*底部字体鼠标悬浮变色*/
+#footer #bottom-bar a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*底部字体样式的一些调整*/
+.custom-menu li {
+    margin: 0px 0 0;
+    padding: 0px 0 0;
+    line-height: 22px;
+}
+
+#footer {
+    /*     height: 465px; */
+}
+
+#footer .widget-title {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+#footer li a {
+    color: #a1a1a1;
+}
+
+#footer li a:hover {
+    color: #d3d3d3;
+}
+
+#footer .widget {
+    margin: 0px 0px 0px 0px;
+}
+
+/*领英等图标调整*/
+#footer .footer-right-li img {
+    background-color: #353535;
+}
+
+#footer .footer-right-li a {
+    margin-left: 9px;
+    margin-top: 56px;
+}
+
+/* 产品hover样式 */
+.product-item .product-name-slider {
+    background-color: #f41d1d !important;
+    transition: all .5s ease;
+    width: 6px;
+}
+
+.product-item .product-name-slider .wpb_wrapper {
+    padding-left: 28px;
+}
+
+.product-item .wpb_column:hover .product-name-slider {
+    width: 100%;
+}
+/*去掉main 的上下padding*/
+#main {
+    padding-top:80px;
+    padding-bottom:120px;
+}
+
+/*去掉首页面包屑*/
+.page-title.solid-bg {
+    height: 0;
+}
+/*二级菜单里面的选项卡*/
+#content .wpb_content_element .wpb_tabs_nav {
+    margin-left: 0%;
+}
+/*选项卡颜色改变*/
+.wpb_content_element .wpb_tabs_nav > li > a {
+    color: #ffffff;
+}
+
+.wpb_content_element.tab-style-three .wpb_tabs_nav > li.ui-tabs-active > a {
+    color:red;
+}
+
+
+.wpb_tabs.wpb_content_element:not(.tab-style-four) .wpb_tabs_nav > li:not(.ui-state-active):hover > a, .wpb_tour.wpb_content_element:not(.tab-style-four) .wpb_tabs_nav > li:not(.ui-state-active):hover > a{
+    color:white;
+}
+/*blog2详情页的调整*/
+#content div div.blog2-height{
+    z-index:1;
+    margin-top:-10%;
+}
+
+/*内容区面包屑*/
+/*面包屑中间斜杆变颜色*/
+#content ol.breadcrumbs.text-small li.current {
+    color:white;
+}
+/*面包屑span字体变颜色*/
+#content ol.breadcrumbs.text-small li span{
+    color:white;
+}
+/*第一个面包屑字段值去掉a链接下划线*/
+#content ol.breadcrumbs.text-small li a{
+    text-decoration:none;
+}
+
+
+
+/* 导航栏 二级 全宽显示 */
+.header-bar .dt-mega-menu-wrap ul.sub-nav {
+    width: 1174px;
+    margin: 0 auto;
+}
+
+.header-bar ul li {
+    height: 100%;
+}
+
+
+/* 这是悬浮的二级导航 他距离导航栏的高度和上边框 */
+.header-bar .main-nav .dt-mega-menu-wrap {
+    border: none;
+    box-shadow: none;
+    top: 80px;
+    position: fixed;
+    left: 0 !important;
+    width: 100% !important;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+
+}
+
+/*浮动导航栏 二级 全宽显示 */
+#primary-menu .sub-nav.hover-style-bg.level-arrows-on{
+	width: 1174px;
+    margin: 0 auto;
+}
+#primary-menu ul li {
+    height: 100%;
+}
+#phantom{
+	height:92px;
+}
+.hide-phantom >.ph-wrap > .menu-box >ul >li > .dt-mega-menu-wrap{
+	margin-top:1rem !important;
+}
+.show-phantom > .ph-wrap > .menu-box >#primary-menu >li > .dt-mega-menu-wrap{
+	border: none;
+    box-shadow: none;
+    top: 80px;
+    margin-top: 0.5rem !important;
+    position: fixed;
+    left: 0 !important;
+    width: 100% !important;
+    /* border-bottom: 1px solid #ececec; */
+    /* border-top: 1px solid #ececec; */
+}
+/* 这是悬浮的二级导航 他距离导航栏的高度和上边框（浮动导航栏里面的样式） */
+#primary-menu .dt-mega-menu-wrap{
+	border: none;
+    box-shadow: none;
+    top: 80px;
+			margin-top:1rem !important;
+    position: fixed;
+    left: 0 !important;
+    width: 100% !important;
+/*     border-bottom: 1px solid #ececec; */
+/*     border-top: 1px solid #ececec; */
+
+}
+
+/* 详情qa样式 */
+.detail-qa .vc_toggle_title{
+
+    position:relative
+}
+
+.detail-qa .vc_toggle_icon{
+
+    position:absolute;
+    right:0;
+}
+/*详情字体颜色 .tab-style-one .wpb_tabs_nav */
+#content h4{
+    color:white;
+}
+#content table{
+    font-size: 14px;
+}
+/*选项卡鼠标移上去颜色的调整*/
+#page .Retro-id li.ui-state-active a{
+    background: #696969;
+}
+#content .Retro-id li{
+    background-color: #1C1C1C;
+}
+
+/*详情页下载按钮的调整*/
+#content .Pro-id{
+    position: relative;
+}
+
+
+#content .Pro-id img{
+    position:absolute;
+    right: 0;
+    margin-top: -25px;
+    margin-right:14px;
+}
+
+/*菜谱详情页调整*/
+.content .entry-content{
+    width:83%;
+    margin:0 auto;
+}
+/*隐藏文字页面一些评论等内容*/
+.content .post-meta.wf-mobile-collapsed{
+    display:none;
+}
+.content .author-info.entry-author{
+    display:none;
+}
+.content .navigation.post-navigation{
+    display:none;
+}
+.content #comments{
+    display:none;
+}
+/*菜谱详情下面的表格修改表格默认线条的颜色*/
+.content .Menu_table table tr td {
+    border-color:#212121;
+}
+/*菜谱详情下面的表格修改表格默认线条的颜色*/
+.content .Menu_table table{
+    border-color:#212121;
+}
+/*菜谱列表动画效果*/
+.product-items .product-names-slider{
+    padding-left: 0px;
+    padding-right:0px;
+
+}
+.product-items .product-names-slider p{
+    margin-left: 28px;
+    padding-top:10px;
+
+}
+.product-items .product-names-slider{
+    color: #fff; font-size: 22px;  text-overflow: ellipsis; white-space: nowrap;
+}
+.product-items .product-names-slider {
+    background-color: #f41d1d !important;
+    transition: all .5s ease;
+    width: 6px;
+}
+.product-items:active .product-names-slider:hover {
+    background-color: yellow !important;
+    transition: all .5s ease;
+    width: 6px;
+}
+.product-items:hover .product-names-slider {
+    width: 100%;
+}
+/*菜谱详情特色图像隐藏（不需要的内容）*/
+.content .post-thumbnail.layzr-bg-transparent{
+    display:none;
+}
+/*隐藏抓取菜谱详情文章时候出现其他菜谱图标*/
+.content .single-related-posts{
+    display:none;
+}
+/*菜谱列表分页小图标样式调整*/
+.vc_grid-pagination .vc_grid-pagination-list li a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #dbdbdb !important;
+    display: inline-block;
+    line-height: 26px;
+}
+
+.vc_grid-pagination .vc_grid-pagination-list li.vc_grid-active a {
+    background-color: #E20A16 !important;
+    color: #fff !important;
+}
+
+
+#menu_id{
+    display:none;
+}
+#menu_ids{
+    display:none;
+}
+
+/*去掉底部点击submit按钮，边框变白色的效果*/
+#footer form button:focus{
+    outline:none;
+}
+#footer form button:hover{
+    background-color:	#282828 !important;
+}
+/*首页service三张图，鼠标移上去改变透明度颜色*/
+#content .vc_column-inner .vc_col-sm-4 .wpb_wrapper a img:hover{
+    opacity: 0.9;
+}
+#content .wpb_wrapper a span:hover{
+    color:#F41D1D !important;
+    border: 1px solid #F41D1D !important;
+}
+/*详情页大小调整*/
+#reatiles h4{
+    font-size:16px;
+}
+#reatiles td{
+    padding:0px;
+}
+
+
+#content .details_rotation img{
+    margin:0;
+}
+/*去掉面包屑的边框*/
+#content .breadcrumbs.text-small a span:hover{
+    border:none !important;
+    color: #F41D1D !important;
+}
+.wpb_wrapper > p{
+	text-align:center;
+}
+/* .product-item>div>div>div{
+    background:#121212;
+} */
+/*适应手机端，媒体查询样式*/
+@media (max-width: 768px) {
+    .vc_custom_1594345132225 {
+        width: 100%;
+        margin: 0 !important;
+    }
+    .vc_custom_1594719749508{
+        margin-left:0 !important;
+        padding-top:56px !important;
+        margin-top:84px !important;
+    }
+    .vc_custom_1594344607976{
+        padding-top:56px !important;
+    }
+    /*网站页面底部的调整*/
+    .textwidget>div>p {
+        margin-right: 0 !important;
+        font-size:0.8rem !important;
+        padding-top:0 !important;
+        margin-left:0% !important;
+    }
+    .textwidget form input{
+        margin-left:47% !important;
+    }
+    .footer #presscore-custom-menu-one-12.widget{
+        width:32%;
+        margin-left:5%
+    }
+    .footer #presscore-custom-menu-one-11.widget{
+        width:37%;
+        margin-left:5%
+    }
+    .footer #presscore-custom-menu-one-10.widget{
+        width:20%
+    }
+    .footer #text-2.widget{
+        width:100%;
+					 margin-left: -10% !important;
+    			margin-top: -4% !important;
+    }
+	
+	.footer #text-3.widget{
+        width:96%
+    }
+/*产品详情页两个能点击的div,位置调整以及字体超出不换行*/
+/*    .details-product-page>div>h4{*/
+/*        display:block;*/
+/*        float:left;*/
+/*    }*/
+/*    .div-blocks{*/
+/*        float:right;*/
+/*        margin-top:-17%;*/
+/*    }*/
+/*    .buy-detalis>div{*/
+/*        max-width:251px;*/
+/*        white-space:nowrap;*/
+/*    }*/
+/*产品详情页Available at手机端位置的调整*/
+    .detailes-img{
+        margin-left: 25% !important;
+    }
+}
+/*隐藏产品详情页另外两块div的轮播 配合jq的隐藏和显示*/
+#content .details1_rotation{
+    display:none;
+}
+#content .details2_rotation{
+    display:none;
+}
+#content .details3_rotation{
+    display:none;
+}
+#content .details4_rotation{
+    display:none;
+}
+/*隐藏色块的文字*/
+#content .font-color2{
+	display:none;
+}
+
+#content .font-color3{
+	display:none;
+}
+
+#content .font-color4{
+	display:none;
+}
+
+#content .font-color5{
+	display:none;
+}
+
+#content .color-position .vc_col-sm-4{
+	height:45px;
+}
+
+/*jq点击变颜色*/
+.border{border:1px solid white !important;}
+
+/*产品详情页轮播图去掉图面的margin为36的值，使之左对齐*/
+#content .details_rotation img{
+    margin:0;
+}
+#content .details1_rotation img{
+    margin:0;
+}
+#content .details2_rotation img{
+    margin:0;
+}
+
+
+
+
+
+
+
+#presscore-custom-menu-one-12.widget.widget_presscore-custom-menu-one.wf-cell.wf-1-4{
+	margin-left: 19%;
+    margin-top: -7%;
+}
+
+#presscore-custom-menu-one-11.widget.widget_presscore-custom-menu-one.wf-cell.wf-1-4{
+	margin-left: -5%;
+    margin-top: -7%;
+}
+
+#presscore-custom-menu-one-10.widget.widget_presscore-custom-menu-one.wf-cell.wf-1-4{
+	margin-left: -9%;
+    margin-top: -7%;
+}
+#text-2.widget.widget_text.wf-cell.wf-1-4{
+	margin-left: -26%;
+    margin-top: -7%;
+}
+.header-bar .dt-mega-menu-wrap{
+	margin-top:0;
+}
+
+
+
+@media (max-width: 768px) {
+/* 	#center2-id{
+		width:50%;
+		display: inline-grid;
+		margin: 0 auto;
+	} */
+/* 	.content .vc_row.wpb_row .vc_inner.vc_row-fluid.product-item.vc_custom_1593482188503{
+		width:50%;
+		display: inline-grid;
+		margin: 0 auto;
+	} */
+.product-item 	.vc_col-sm-3 {
+    width: 50%;
+	float: left;
+}
+	.product-item 	.vc_col-sm-3  a {
+		
+/*    font-size:11px !important; */
+		font-size:14px !important;
+		 display: inline-block !important;
+    padding-top: 10px !important;
+		 
+}
+	.vc_row.wpb_row.vc_inner.vc_row-fluid.product-item{
+	margin-top:0 !important
+	}
+	.wpb_text_column.wpb_content_element.product-name-slider {
+/* 		    padding-top: 0px !important; */
+/* 		padding-bottom: 9px !important; */
+}
+	.more-div{
+		line-height:100px !important;
+	}
+	.mobile-line{
+		top:-134px !important;
+	}
+	.mobile-line img{
+		height:4px;
+	}
+	.font1-id{
+		font-size: 13px !important;
+		margin-left: 3%;
+	}
+	.mobile-line form input{
+		width: 34% !important;
+		margin-left: 41% !important;
+	}
+	
+	#footer #presscore-custom-menu-one-12{
+		margin-top: -28%;
+    margin-left: 5%;
+	}
+		#footer #presscore-custom-menu-one-11{
+		margin-top: -28%;
+    margin-left: 6%;
+	}
+	
+	#footer #presscore-custom-menu-one-10{
+		margin-left: -2%;
+    margin-top: -28%;
+	}
+	#footer #text-3{
+		    margin-left: -7%;
+	}
+	#footer .footer-right-li{
+		    margin-top: -14%;
+	}
+
+	#center2-id .uvc-heading-spacer.line_only{
+		margin-top:22px !important;
+		margin-bottom: 30px;
+		width: 65%;
+	}
+
+	
+	.slider div.vc_row.wpb_row.vc_row-fluid.vc_row-no-padding {
+    min-height:0 !important;
+}
+	
+}
+
+/*pc端样式*/
+.slider .vc_row.wpb_row.vc_row-fluid.vc_row-no-padding {
+    min-height: 1600px !important;
+}
+.header-bar .main-nav .dt-mega-menu-wrap{
+	border:none;
+}
+
+/*头部导航栏一级标题调整*/
+.header-bar ul li {
+    height: 100%;
+/* 	margin-left:-2%; */
+	margin-left:-1%;
+	 
+}
+
+#primary-menu{
+	margin-left: 2%;
+}
+
+.main-nav > li > a .menu-text {
+    font: normal 15px / 20px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: none;
+}
+/*logo与一级导航栏距离问题*/
+#primary-menu{
+	height: 80px;
+	margin-left:2%;
+}
+.main-nav > li > a {
+	padding: 0px;
+}
+
+
+/*详情页色块位置*/
+@media (max-width: 768px){
+	.div-blocks {
+/*     float: right; */
+    margin-top: -17%;
+}
+	.color-position{
+		display:flex;
+	}
+	#content .font-color{
+		margin-left:-59px !important;
+	}
+	
+}
+
+
+/*搜索框样式*/
+#page .popup-search-wrap input {
+    background: #212121;
+}
+
+#page .popup-search-wrap {
+    background: #212121;
+}
+
+/*底部订阅Enter email 字体颜色设置 兼容谷歌，火狐，ie浏览器的设置*/
+/* input::-webkit-input-placeholder{
+            color:white;
+        }
+        input::-moz-placeholder{  
+            color:red;
+        }
+        input:-moz-placeholder{   
+            color:red;
+        }
+        input:-ms-input-placeholder{  
+            color:red;
+        }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #main.sidebar-none.sidebar-divider-off  {
+    padding-top: 0 ;
+    padding-bottom: 74px ;
+} */
+.menu_details_page_font h5{
+    margin-bottom:0px;
+    color:white;
+}
+
+.menu_details_page_font ul {
+    list-style: none;
+    font-size: 16px;
+    margin-left: 0px;
+    color:white;
+}
+.menu_details_page_font{
+    border: 2px solid #e60012;
+    border-radius:10px;
+    /*overflow: auto;*/
+}
+
+#content .menu_details_page_font h4{
+    background:#e60012;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#content .wpb_text_column :last-child,.wpb_text_column :last-child{
+    margin-bottom:10px;
+}
+
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body{
+    border-color:#e60012 !important;
+}
+
+
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+    border-color: #e60012 !important;
+    background-color: #e60012 !important;
+    color:white !important;
+}
+
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-tab>a {
+    border-color: #a6192e !important;
+    background-color:#a6192e !important;
+    color:white !important;
+}
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-tab>a:hover {
+    background-color: #e60012 !important;
+}
+#content .tab_lists .wpb_wrapper a span:hover {
+    color: white !important;
+    border: 0px solid #F41D1D !important;
+}
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:focus, .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:hover {
+    background-color: #e60012 !important;
+}
+
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels {
+    background-color:transparent !important;
+}
+
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+    background-color:transparent !important;
+}
+
+.wpb-js-composer .vc_tta-shape-rounded:not(.vc_tta-o-no-fill) .vc_tta-panel.vc_active .vc_tta-panel-body {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.wpb-js-composer .vc_tta-controls-align-left.vc_tta-tabs.vc_tta-tabs-position-top:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill) .vc_tta-panels{
+    border-top-right-radius: 0px;
+}
+#content .tab_lists .vc_tta-tabs-list li:nth-child(4){
+    margin-right:0px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_tta-spacing-2 .vc_tta-tab{
+    margin-right:118px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_tta-shape-rounded .vc_tta-tabs-container {
+    margin: 0px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-tab>a {
+    border-width: 0px !important;
+}
+.wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-panel-body{
+    border-width:2px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab.vc_active>a{
+    transition: background .0s ease-in-out,color .0s ease-in-out,border .0s ease-in-out !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a{
+    transition: background .0s ease-in-out,color .0s ease-in-out,border .0s ease-in-out !important;
+}
+
+
+#content .colors_font{
+    background:transparent;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.menu_tabs_details_page_font ol{
+    /*list-style: none;*/
+    font-size: 16px;
+    /*margin-left: 0px;*/
+    color:white;
+}
+
+
+
+.menu_tabs_details_page_font li:before {
+    content: counter(my-counter);
+    counter-increment: my-counter;
+    background-color: #e60012;
+    color: #fff;
+    display: block;
+    float: left;
+    line-height: 18px;
+    margin-left: -22px;
+    text-align: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 4px;
+    font-size: 12px;
+    /*border-radius: 50%;*/
+}
+.menu_tabs_details_page_font ol {
+    counter-reset: my-counter;
+    list-style: none;
+    padding: 0;
+}
+/*.menu_tabs_details_page_font li {*/
+/*    margin-bottom: 10px;*/
+/*    padding-left: 30px;*/
+/*    position: relative;*/
+/*}*/
+
+
+
+
+
+
+
+.tabs_times h5{
+    display: block;
+    float: left;
+    background: #e60012;
+    height: 42px;
+    line-height: 42px;
+    width: 170px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color:white;
+}
+
+.tabs_times p{
+    display: block;
+    height: 38px;
+    /*background: pink;*/
+    line-height: 38px;
+    width: 216px;
+    float: left;
+    border: 2px solid #e60012;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.content .tabs_times ul {
+    list-style: none;
+}
+.content .tabs_times ul li{
+    display: inline-flex;
+}
+
+
+
+@media (max-width: 768px){
+	.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {
+    background-color:transparent !important;
+}
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+    border-color: #e60012 !important;
+}
+.wpb-js-composer .vc_tta-color-pink.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+    color: #fff !important;
+}
+.wpb-js-composer .vc_tta.vc_tta-shape-rounded .vc_tta-panel-heading{
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+}
+.wpb-js-composer .vc_tta.vc_tta-spacing-2 .vc_tta-panel.vc_active .vc_tta-panel-heading, .wpb-js-composer .vc_tta.vc_tta-spacing-2 .vc_tta-panel:not(:last-child) .vc_tta-panel-heading {
+    margin-bottom: 0px !important;
+}
+
+#content .vc_custom_1602556941621{
+       margin-left:0px !important;
+   }
+   
+#content .tabs_times ul{
+    margin:0px !important;
+}
+
+.tabs_times p{
+    width:175px !important;
+}
+.tabs_times h5{
+    width:150px !important;
+}
+
+.details_tabs_fonts{
+    width:100% !important;
+}
+}
+
+.tabs_times{
+    display:none;
+}
+
+.menu_details_page_font tr td{
+    padding: 6px 5px 0px 5px;
+}
+
+.threesixty {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.threesixty .threesixty_images {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.threesixty .threesixty_images img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.threesixty .threesixty_images img.previous-image {
+  visibility: hidden;
+  /*
+           Do not put here any other styles.
+           It causes massive recalc / repaints and image flickering,
+           especially on Firefox.
+        */
+
+}
+.threesixty .threesixty_images img.current-image {
+  visibility: visible;
+  margin-top: -13px;
+  /*
+           Do not put here any other styles.
+           It causes massive recalc / repaints and image flickering,
+           especially on Firefox.
+        */
+
+}
+.threesixty .spinner {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.threesixty .spinner span {
+  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+}
+.threesixty .nav_bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 11;
+}
+.threesixty .nav_bar a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  float: left;
+  background: url(/assets/sprites.png) no-repeat;
+  text-indent: -99999px;
+}
+.threesixty .nav_bar a.nav_bar_play {
+  background-position: 0 0 !important;
+}
+.threesixty .nav_bar a.nav_bar_previous {
+  background-position: 0 -73px !important;
+}
+.threesixty .nav_bar a.nav_bar_stop {
+  background-position: 0 -37px !important;
+}
+.threesixty .nav_bar a.nav_bar_next {
+  background-position: 0 -104px !important;
+}
+/* html */
+.threesixty:-webkit-full-screen {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 200px;
+}
+.threesixty:-moz-full-screen {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 200px;
+}
+
+/* 360旋转按钮样式 */
+.vc_btn3.vc_btn3-color-inverse.vc_btn3-style-modern {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* line-height: 33px; */
+    color: #fff;
+    border-color: #555;
+    background-color: #555;
+}
+
+/* 顶部导航栏 */
+.top-bar > .mini-widgets{
+	height: 83px !important;
+	display: -ms-flexbox;
+	display: -ms-flex;
+	display: flex;
+	-ms-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+	-ms-flex-pack: start;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.top-bar-bg{
+	background-color:black;
+}
+#phantom .top-bar-bg, .sticky-on .top-bar-bg, .sticky-top-line-on .top-bar-bg{
+	background:black none repeat center center !important;
+}
+/* 顶部导航栏下拉框菜单样式	 */
+
+.masthead:not(.side-header):not(.side-header-menu-icon) .top-bar {
+    max-width: calc(1174px);
+    margin: 0 auto;
+    height: 58px;
+	   margin-top: -12px;
+}
+/* 二级菜单间隔样式 */
+.wf-1-5{
+	width:16% !important;
+}
+.wf-1-3, .wf-span-4 {
+ width: 16%!important;
+}
+.searchform{
+	position: relative;
+	z-index: 3;
+	max-width: 100%;
+	margin-top: -13px !important;
+}
+.masthead:not(.side-header):not(.side-header-v-stroke):not(.side-header-menu-icon) .header-bar, .ph-wrap{
+  margin-top: -14px !important;
+	 height: 60px;
+  padding: 0 0px 0 0px;
+}
+/* 导航栏搜索 */
+.mini-search input.field, .overlay-search-microwidget input[type=text]{
+	width:300px;
+	font-size: 10px;
+	font-style:italic;
+}
+.searchform input[type=text], .mini-search .field::placeholder, .overlay-search-microwidget .field::placeholder{
+	color: #8b8d94;
+}
+/* 一级导航栏字体调整 */
+.top-bar, .top-bar a:not(.wpml-ls-link):not(.wpml-ls-item-toggle), .top-bar .mini-nav .customSelect, .top-bar .mini-nav a:hover, .header-bottom-bar a{
+	 color: #ffffff;
+  font-size: 12px;
+}
+.inline-header .branding, .inline-header .header-bar > .mini-widgets{
+	 margin-top: 11px;
+}
+/* 产品栏隐藏 */
+.wpb_wrapper > .vc_custom_1599210171103{
+	display:none !important;
+}
+.menu-select select, .mini-nav .customSelect, .mini-search input[type=text], .overlay-search-microwidget input[type=text], .text-area>p{
+	 margin-top: -14px;
+  margin-bottom: 0;
+}
+#primary-menu{
+ margin-top: 7px;
+ margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+	.mini-search input.field, .overlay-search-microwidget input[type=text]{
+	  width: 200px;
+    margin-top: 8px;
+	}
+}
+.imgHover{
+	transition: all .6s;
+}
+.imgHover:hover{
+	transform: scale(1.05);
+}
+.imgHover1{
+	transition: all .6s;
+}
+.imgHover1:hover{
+	transform: scale(1.05);
+}
+
+
+/* 预览小图样式 */
+.product_magnifier{
+    padding-right: 110px !important;
+    padding-left: 55px !important;
+}
+ @media (max-width: 768px){
+    .vc_pageable-slide-wrapper{
+       display:flex ; 
+       margin: 0 auto;
+    }
+    .product_magnifier{
+        padding: 0px !important;
+    }
+	  .vc_pageable-slide-wrapper .vc_grid-item{
+				width:3rem;
+	 }
+}
+/* 搜索内容字体调整 */
+.wf-cell .blog-content .entry-title a{
+	color: white !important;
+}
+.wf-cell .blog-content .entry-title a:hover{
+	color: red !important;
+}
+</style>
+</head>
+<body class="home page-template-default page page-id-87 wp-embed-responsive dt-responsive-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-sticky phantom-shadow-decoration phantom-custom-logo-on floating-top-bar sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on popup-message-style the7-ver-8.5.0.1 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
+<!-- The7 8.5.0.1 -->
+
+<div id="page" >
+	<a class="skip-link screen-reader-text" href="#content"></a>
+
+<div class="masthead inline-header left widgets shadow-decoration small-mobile-menu-icon mobile-menu-icon-bg-on dt-parent-menu-clickable show-device-logo show-mobile-logo"  role="banner">
+
+	<div class="top-bar top-bar-line-hide">
+	<div class="top-bar-bg" ></div>
+	<div class="mini-widgets left-widgets"></div><div class="right-widgets mini-widgets"><div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch"><p><a style="text-decoration: none;" href="https://www.galanz.com/us/?page_id=5715" >Recipes</a></p>
+</div><div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch"><p><a style="text-decoration: none;" href="https://www.galanz.com/us/?page_id=740" >Contact</a></p>
+</div><div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch"><p><a style="text-decoration: none;" href="https://www.galanz.com/us/?page_id=6116" >Product Registration</a></p>
+</div><div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch"><p><a style="text-decoration: none;" href="https://www.galanz.com/us/?page_id=1428" >About Galanz</a></p>
+</div><div class="mini-search show-on-desktop near-logo-first-switch near-logo-second-switch classic-search custom-icon"><form class="searchform mini-widget-searchform" role="search" method="get" action="https://www.galanz.com/us/">
+
+	<div class="screen-reader-text"></div>
+
+	
+		<input type="text" class="field searchform-s" name="s" value="" placeholder="Enter Keywords" title=""/>
+		<a href="#go" class="search-icon"><i class="icomoon-the7-font-the7-zoom-044"></i></a>
+
+			<input type="submit" class="assistive-text searchsubmit" value=""/>
+</form></div></div></div>
+
+	<header class="header-bar">
+
+		<div class="branding">
+	<div id="site-title" class="assistive-text">Galanz &#8211; Thoughtful Engineering</div>
+	<div id="site-description" class="assistive-text"></div>
+	<a class="" href="https://www.galanz.com/us/"><img class=" preload-me" src="https://www.galanz.com/us/wp-content/uploads/2020/07/galanz.png" srcset="https://www.galanz.com/us/wp-content/uploads/2020/07/galanz.png 133w" width="133" height="30"   sizes="133px" alt="Galanz - Thoughtful Engineering" /><img class="mobile-logo preload-me" src="https://www.galanz.com/us/wp-content/uploads/2020/07/galanz.png" srcset="https://www.galanz.com/us/wp-content/uploads/2020/07/galanz.png 133w" width="133" height="30"   sizes="133px" alt="Galanz - Thoughtful Engineering" /></a></div>
+
+		<ul id="primary-menu" class="main-nav underline-decoration l-to-r-line" role="navigation"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21 first has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=970' data-level='1'><span class="menu-item-text"><span class="menu-text">Retro Collections</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=486' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/GLCMKA07GNR-07-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/GLCMKA07GNR-07-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/GLCMKA07GNR-07.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Microwave Ovens</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=492' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Small Kitchen Appliances</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=488' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Mini-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Mini-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Mini-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Compact Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-498 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=484' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Top Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=490' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Bottom-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Bottom-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Bottom-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Bottom Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4482 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=4480' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/GLF11UWEG16-Upright-Freezer.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/GLF11UWEG16-Upright-Freezer.png 80w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Upright Freezers</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1036' data-level='1'><span class="menu-item-text"><span class="menu-text">Microwaves</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=395' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/ToastWave™-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/ToastWave™-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/ToastWave™.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">ToastWave™</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=413' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/SpeedWave™-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/SpeedWave™-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/SpeedWave™.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">SpeedWave™</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=390' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/05/ExpressWave-logo.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/05/ExpressWave-logo.png 80w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">ExpressWave™</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7118 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=7110' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/01/Air-Fry-MWO-logo-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/01/Air-Fry-MWO-logo-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/01/Air-Fry-MWO-logo.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Air Fry Microwave</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9751 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=419' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/07/Over-the-Range_Microwaves-1-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/07/Over-the-Range_Microwaves-1-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/07/Over-the-Range_Microwaves-1.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Over-the-Range Microwaves</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11090 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=486' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/10/GLCMKZ09BER09-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/10/GLCMKZ09BER09-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/10/GLCMKZ09BER09-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Microwave Ovens</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1023' data-level='1'><span class="menu-item-text"><span class="menu-text">Refrigerators &#038; Freezers</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9749 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=9746' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=449' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Mini-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Mini-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Mini-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Compact Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=453' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Top-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Top-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Top-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Top Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=451' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Bottom-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Bottom-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Bottom-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Bottom Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3017 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=459' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/French-Door-Refrigerators-2-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/French-Door-Refrigerators-2-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/French-Door-Refrigerators-2.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">French Door Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-463 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=455' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Built-In-Ice-Makers-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Built-In-Ice-Makers-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Built-In-Ice-Makers-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Built In Ice Maker Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=436' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Upright-Freezers-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Upright-Freezers-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Upright-Freezers.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Upright Freezers</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-446 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=438' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Chest-Freezers-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Chest-Freezers-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Chest-Freezers.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Chest Freezers</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11432 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=1018' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/06/GLW57MS2B16-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/06/GLW57MS2B16-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/06/GLW57MS2B16-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Wine &#038; Beverage Coolers</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11442 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1027' data-level='1'><span class="menu-item-text"><span class="menu-text">Ranges and Wall Ovens</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-445 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=440' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Wall-Ovens-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Wall-Ovens-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Wall-Ovens.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Wall Ovens</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-477 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=467' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Ranges-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Ranges-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Ranges.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Ranges</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=473' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Cooktops-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Cooktops-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Cooktops.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Cooktops</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11444 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=442' data-level='1'><span class="menu-item-text"><span class="menu-text">Dishwashers</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11446 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=2536' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">18″ Dishwasher</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11445 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=2541' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-2-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-2-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-2-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">24″ Dishwasher</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1031' data-level='1'><span class="menu-item-text"><span class="menu-text">Small Kitchen Appliances</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10520 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10501' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14_front-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14_front-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14_front-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Coffee Maker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10698 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=6392' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/01/GLCI26RDA3A-3-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/01/GLCI26RDA3A-3-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/01/GLCI26RDA3A-3-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Ice Maker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10547 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10544' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-2-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-2-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-2-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Toaster</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10538 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10535' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/01/GLKE17RDRM15-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/01/GLKE17RDRM15-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/01/GLKE17RDRM15-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Kettle</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10529 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10522' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/04/打蛋器.57-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/04/打蛋器.57-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/04/打蛋器.57-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Blender&#038;Mixer</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-433 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=425' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/05/Toaster-Ovens-logo-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/05/Toaster-Ovens-logo-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/05/Toaster-Ovens-logo-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Toaster Ovens</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10553 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10549' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/01/GLPC06S2A15B-front-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/01/GLPC06S2A15B-front-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/01/GLPC06S2A15B-front-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Pressure Cooker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10557 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10554' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/06/Side-Bottom-View-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/06/Side-Bottom-View-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/06/Side-Bottom-View-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Slow Cooker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7301 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=6835' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/02/Bread-Maker-logo.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/02/Bread-Maker-logo.png 80w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Bread Maker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10534 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10531' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/10/GLAFV606S115-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/10/GLAFV606S115-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/10/GLAFV606S115-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Air Fryer</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11352 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=11348' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/09/1-5-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/09/1-5-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/09/1-5-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Air Purifer</span></span></a></li> </ul></div></li> </ul>
+		
+	</header>
+
+</div>
+<div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+	<ul id="mobile-menu" class="mobile-main-nav" role="navigation">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21 first has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=970' data-level='1'><span class="menu-item-text"><span class="menu-text">Retro Collections</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=486' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/GLCMKA07GNR-07-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/GLCMKA07GNR-07-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/GLCMKA07GNR-07.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Microwave Ovens</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=492' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Small Kitchen Appliances</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=488' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Mini-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Mini-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Mini-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Compact Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-498 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=484' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Top Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=490' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Bottom-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Bottom-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Bottom-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Bottom Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4482 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=4480' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/GLF11UWEG16-Upright-Freezer.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/GLF11UWEG16-Upright-Freezer.png 80w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Upright Freezers</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1036' data-level='1'><span class="menu-item-text"><span class="menu-text">Microwaves</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=395' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/ToastWave™-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/ToastWave™-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/ToastWave™.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">ToastWave™</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=413' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/SpeedWave™-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/SpeedWave™-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/SpeedWave™.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">SpeedWave™</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=390' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/05/ExpressWave-logo.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/05/ExpressWave-logo.png 80w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">ExpressWave™</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7118 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=7110' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/01/Air-Fry-MWO-logo-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/01/Air-Fry-MWO-logo-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/01/Air-Fry-MWO-logo.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Air Fry Microwave</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9751 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=419' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/07/Over-the-Range_Microwaves-1-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/07/Over-the-Range_Microwaves-1-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/07/Over-the-Range_Microwaves-1.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Over-the-Range Microwaves</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11090 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=486' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/10/GLCMKZ09BER09-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/10/GLCMKZ09BER09-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/10/GLCMKZ09BER09-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Microwave Ovens</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1023' data-level='1'><span class="menu-item-text"><span class="menu-text">Refrigerators &#038; Freezers</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9749 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=9746' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Retro-Top-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Retro Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=449' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Mini-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Mini-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Mini-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Compact Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=453' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Top-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Top-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Top-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Top Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=451' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Bottom-Mount-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Bottom-Mount-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Bottom-Mount-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Bottom Mount Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3017 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=459' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/French-Door-Refrigerators-2-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/French-Door-Refrigerators-2-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/French-Door-Refrigerators-2.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">French Door Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-463 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=455' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Built-In-Ice-Makers-Refrigerators-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Built-In-Ice-Makers-Refrigerators-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Built-In-Ice-Makers-Refrigerators.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Built In Ice Maker Refrigerators</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=436' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Upright-Freezers-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Upright-Freezers-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Upright-Freezers.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Upright Freezers</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-446 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=438' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Chest-Freezers-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Chest-Freezers-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Chest-Freezers.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Chest Freezers</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11432 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=1018' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/06/GLW57MS2B16-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/06/GLW57MS2B16-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/06/GLW57MS2B16-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Wine &#038; Beverage Coolers</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11442 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1027' data-level='1'><span class="menu-item-text"><span class="menu-text">Ranges and Wall Ovens</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-445 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=440' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Wall-Ovens-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Wall-Ovens-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Wall-Ovens.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Wall Ovens</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-477 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=467' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Ranges-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Ranges-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Ranges.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Ranges</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=473' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2020/09/Cooktops-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2020/09/Cooktops-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2020/09/Cooktops.png 115w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Cooktops</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11444 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=442' data-level='1'><span class="menu-item-text"><span class="menu-text">Dishwashers</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11446 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=2536' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">18″ Dishwasher</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11445 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=2541' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-2-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-2-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/09/GLDW09TS2A5A-2-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">24″ Dishwasher</span></span></a></li> </ul></div></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17 has-children dt-mega-menu mega-full-width mega-column-6"><a href='https://www.galanz.com/us/?page_id=1031' data-level='1'><span class="menu-item-text"><span class="menu-text">Small Kitchen Appliances</span></span></a><div class="dt-mega-menu-wrap"><ul class="sub-nav hover-style-bg level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10520 first no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10501' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14_front-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14_front-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14_front-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Coffee Maker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10698 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=6392' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/01/GLCI26RDA3A-3-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/01/GLCI26RDA3A-3-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/01/GLCI26RDA3A-3-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Ice Maker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10547 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10544' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-2-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-2-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/02/GLTO2RDRM083-2-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Toaster</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10538 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10535' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/01/GLKE17RDRM15-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/01/GLKE17RDRM15-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/01/GLKE17RDRM15-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Kettle</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10529 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10522' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/04/打蛋器.57-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/04/打蛋器.57-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/04/打蛋器.57-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Blender&#038;Mixer</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-433 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=425' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/05/Toaster-Ovens-logo-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/05/Toaster-Ovens-logo-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/05/Toaster-Ovens-logo-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Toaster Ovens</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10553 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10549' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/01/GLPC06S2A15B-front-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/01/GLPC06S2A15B-front-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/01/GLPC06S2A15B-front-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Pressure Cooker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10557 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10554' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/06/Side-Bottom-View-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/06/Side-Bottom-View-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/06/Side-Bottom-View-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Slow Cooker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7301 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=6835' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/02/Bread-Maker-logo.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/02/Bread-Maker-logo.png 80w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Bread Maker</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10534 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=10531' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2021/10/GLAFV606S115-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2021/10/GLAFV606S115-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2021/10/GLAFV606S115-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 6px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Air Fryer</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11352 no-link dt-mega-parent wf-1-6"><a href='https://www.galanz.com/us/?page_id=11348' class=' mega-menu-img mega-menu-img-top' data-level='2'><img class="preload-me lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%2080%2080&#39;%2F%3E" data-src="https://www.galanz.com/us/wp-content/uploads/2022/09/1-5-80x80.png" data-srcset="https://www.galanz.com/us/wp-content/uploads/2022/09/1-5-80x80.png 80w, https://www.galanz.com/us/wp-content/uploads/2022/09/1-5-160x160.png 160w" alt="Menu icon" width="80" height="80"  style="border-radius: 0px;margin: 0px 0px 0px 0px;" /><span class="menu-item-text"><span class="menu-text">Air Purifer</span></span></a></li> </ul></div></li> 	</ul>
+	<div class='mobile-mini-widgets-in-menu'></div>
+</div>
+
+
+
+<div id="main" class="sidebar-none sidebar-divider-off">
+
+	
+	<div class="main-gradient"></div>
+	<div class="wf-wrap">
+	<div class="wf-container-main">
+
+	
+
+
+	<div id="content" class="content" role="main">
+
+		<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p><img class="aligncenter wp-image-7956 size-full" src="https://www.galanz.com/us/wp-content/uploads/2021/04/Thoughtful-Engineering-PC-Banner.jpg" alt="a pic about products of galanz" width="1920" height="960" srcset="https://www.galanz.com/us/wp-content/uploads/2021/04/Thoughtful-Engineering-PC-Banner.jpg 1920w, https://www.galanz.com/us/wp-content/uploads/2021/04/Thoughtful-Engineering-PC-Banner-300x150.jpg 300w, https://www.galanz.com/us/wp-content/uploads/2021/04/Thoughtful-Engineering-PC-Banner-1024x512.jpg 1024w, https://www.galanz.com/us/wp-content/uploads/2021/04/Thoughtful-Engineering-PC-Banner-768x384.jpg 768w, https://www.galanz.com/us/wp-content/uploads/2021/04/Thoughtful-Engineering-PC-Banner-1536x768.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><!-- Row Backgrounds --><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid slider vc_custom_1599033785999 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1642730266074"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1645006274340" >
+		<div class="wpb_wrapper">
+			
+			<!-- START Slider 15 REVOLUTION SLIDER 6.2.2 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_34_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_34_1" style="display:none;" data-version="6.2.2">
+					<rs-slides>
+						<rs-slide data-key="rs-60" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+							<img src="//www.galanz.com/us/wp-content/uploads/2022/02/GLEC02RDRE14-复古红意式咖啡机.png" title="GLEC02RDRE14-复古红意式咖啡机" width="1920" height="600" class="rev-slidebg" data-no-retina>
+<!--
+							--><a
+								id="slider-34-slide-60-layer-3" 
+								class="rs-layer rev-btn"
+								href="https://www.galanz.com/us/?page_id=9958" target="_self" rel="noopener"
+								data-type="button"
+								data-color="#282828"
+								data-rsp_ch="on"
+								data-xy="x:419px;y:392px;"
+								data-text="w:normal;s:22;l:32;fw:500;a:center;"
+								data-dim="w:194px;h:32px;minh:0px;"
+								data-padding="r:20;l:20;"
+								data-border="bor:16px,16px,16px,16px;"
+								data-frame_999="o:0;st:w;"
+								data-frame_hover="c:#fff;bgc:#000;bor:16px,16px,16px,16px;"
+								style="z-index:8;background-color:#ededed;font-family:Verdana, Geneva, sans-serif;"
+							>Explore more 
+							</a><!--
+-->						</rs-slide>
+					</rs-slides>
+					<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_34_1',rl:[1240,1024,778,480],el:[600],gw:[1920],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+					var	revapi34,
+						tpj;
+					jQuery(function() {
+						tpj = jQuery;
+						if(tpj("#rev_slider_34_1").revolution == undefined){
+							revslider_showDoubleJqueryError("#rev_slider_34_1");
+						}else{
+							revapi34 = tpj("#rev_slider_34_1").show().revolution({
+								jsFileLocation:"//www.galanz.com/us/wp-content/plugins/revslider/public/assets/js/",
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1920,
+								gridheight:600,
+								editorheight:"600,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								disableProgressBar:"on",
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1644483704920" >
+		<div class="wpb_wrapper">
+			
+			<!-- START Giveaway REVOLUTION SLIDER 6.2.2 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_39_2_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_39_2" style="display:none;" data-version="6.2.2">
+					<rs-slides>
+						<rs-slide data-key="rs-66" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+							<img src="//www.galanz.com/us/wp-content/uploads/2022/02/GLPC06S2A15B-New.jpg" title="GLPC06S2A15B-New" width="1920" height="600" class="rev-slidebg" data-no-retina>
+<!--
+							--><a
+								id="slider-39-slide-66-layer-0" 
+								class="rs-layer rev-btn"
+								href="https://www.galanz.com/us/?page_id=10147" target="_self" rel="noopener"
+								data-type="button"
+								data-color="#282828"
+								data-rsp_ch="on"
+								data-xy="x:1377px;y:400px;"
+								data-text="w:normal;s:22;l:32;"
+								data-dim="h:34px;minh:0px;"
+								data-padding="r:20;l:20;"
+								data-border="bor:16px,16px,16px,16px;"
+								data-frame_999="o:0;st:w;"
+								data-frame_hover="c:#fff;bgc:#000;bor:16px,16px,16px,16px;"
+								style="z-index:5;background-color:rgba(255,255,255,1);font-family:Open Sans;"
+							>Explore more 
+							</a><!--
+-->						</rs-slide>
+					</rs-slides>
+					<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_39_2',rl:[1240,1024,778,480],el:[600],gw:[1920],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+					var	revapi39,
+						tpj;
+					jQuery(function() {
+						tpj = jQuery;
+						if(tpj("#rev_slider_39_2").revolution == undefined){
+							revslider_showDoubleJqueryError("#rev_slider_39_2");
+						}else{
+							revapi39 = tpj("#rev_slider_39_2").show().revolution({
+								jsFileLocation:"//www.galanz.com/us/wp-content/plugins/revslider/public/assets/js/",
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1920,
+								gridheight:600,
+								spinner:"spinner0",
+								editorheight:"600,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								disableProgressBar:"on",
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1644481673111" >
+		<div class="wpb_wrapper">
+			
+			<!-- START New Arrival REVOLUTION SLIDER 6.2.2 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_40_3_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_40_3" style="display:none;" data-version="6.2.2">
+					<rs-slides>
+						<rs-slide data-key="rs-67" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+							<img src="//www.galanz.com/us/wp-content/uploads/2022/02/GLAF05RDRM15-New.png" title="GLAF05RDRM15-New" width="1920" height="600" class="rev-slidebg" data-no-retina>
+<!--
+							--><a
+								id="slider-40-slide-67-layer-0" 
+								class="rs-layer rev-btn"
+								href="https://www.galanz.com/us/?page_id=9982" target="_self" rel="noopener"
+								data-type="button"
+								data-color="#1e1e1e"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-485px;y:b;yo:116px;"
+								data-text="w:normal;s:22;l:32;a:center;"
+								data-dim="w:194px;h:34px;"
+								data-padding="r:20;l:20;"
+								data-border="bor:16px,16px,16px,16px;"
+								data-frame_999="o:0;st:w;"
+								data-frame_hover="c:#fff;bgc:#000;bor:16px,16px,16px,16px;"
+								style="z-index:5;background-color:rgba(255,255,255,1);font-family:Verdana, Geneva, sans-serif;"
+							>Explore more 
+							</a><!--
+-->						</rs-slide>
+					</rs-slides>
+					<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_40_3',rl:[1240,1024,778,480],el:[600],gw:[1920],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+					var	revapi40,
+						tpj;
+					jQuery(function() {
+						tpj = jQuery;
+						if(tpj("#rev_slider_40_3").revolution == undefined){
+							revslider_showDoubleJqueryError("#rev_slider_40_3");
+						}else{
+							revapi40 = tpj("#rev_slider_40_3").show().revolution({
+								jsFileLocation:"//www.galanz.com/us/wp-content/plugins/revslider/public/assets/js/",
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1920,
+								gridheight:600,
+								spinner:"spinner0",
+								editorheight:"600,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								disableProgressBar:"on",
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid slider vc_custom_1599033785999 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1642730876104"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			
+			<!-- START Slider11 REVOLUTION SLIDER 6.2.2 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_15_4_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_15_4" style="display:none;" data-version="6.2.2">
+					<rs-slides>
+						<rs-slide data-key="rs-21" data-title="Slide" data-link=" //www.galanz.com/us/?page_id=5715" data-target="_self" data-seoz="front" data-anim="ei:d,d;eo:d,d;s:1000,d;r:0,0;t:slideup,slidingoverlayhorizontal;sl:d,d;">
+							<img src="//www.galanz.com/us/wp-content/uploads/2022/02/Recipe-Banner-1.jpg" title="Recipe Banner-1" width="1920" height="600" class="rev-slidebg" data-no-retina>
+<!--
+							--><a
+								id="slider-15-slide-21-layer-4" 
+								class="rs-layer"
+								href="https://www.galanz.com/us/www.galanz.com/us/?page_id=5715" target="_self" rel="noopener"
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;"
+								style="z-index:8;"
+							><img src="//www.galanz.com/us/wp-content/uploads/2022/02/Recipe-Banner-1.jpg" width="1920" height="600" data-c="cover-proportional" data-no-retina> 
+							</a><!--
+-->						</rs-slide>
+					</rs-slides>
+					<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_15_4',rl:[1240,1024,778,480],el:[600],gw:[1920],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+					var	revapi15,
+						tpj;
+					jQuery(function() {
+						tpj = jQuery;
+						if(tpj("#rev_slider_15_4").revolution == undefined){
+							revslider_showDoubleJqueryError("#rev_slider_15_4");
+						}else{
+							revapi15 = tpj("#rev_slider_15_4").show().revolution({
+								jsFileLocation:"//www.galanz.com/us/wp-content/plugins/revslider/public/assets/js/",
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1920,
+								gridheight:600,
+								editorheight:"600,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								disableProgressBar:"on",
+								stopAtSlide:1,
+								stopAfterLoops:0,
+								stopLoop:true,
+								navigation: {
+									onHoverStop:false
+								},
+								scrolleffect: {
+									set:true,
+									multiplicator:1.3,
+									multiplicator_layers:1.3,
+									tilt:"30%"
+								},
+								sbtimeline: {
+									set:true,
+									ease:"slow",
+									speed:"3000ms"
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p><a href="https://www.galanz.com/us/?page_id=6729"><img src="https://www.galanz.com/us/wp-content/uploads/2021/01/360%E5%BA%A6%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA2-%E9%BB%91.jpg" alt="Click me to jump to 360 view" width="1920" height="620" /></a></p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1595064263214"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="ultimate-heading-461664245bb4edcbe" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-461664245bb4edcbe uvc-2541 " data-hspacer="line_only"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-461664245bb4edcbe h1'  data-responsive-json-new='{"font-size":"desktop:40px;","line-height":"desktop:45px;"}' ><h1 style="font-weight:normal;color:#ffffff;">Service</h1></div><div class="uvc-heading-spacer line_only" style="margin-top:20px;height:4px;"><span class="uvc-headings-line" style="border-style:solid;border-bottom-width:4px;border-color:#dd3333;width:200px;"></span></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1594975548187"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner vc_custom_1606180295389"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInLeftBig fadeInLeftBig vc_custom_1634352770695 Product_Registration_img" >
+		<div class="wpb_wrapper">
+			<p><a href="https://www.galanz.com/us/?page_id=6116"><img class="wp-image-1782 size-full aligncenter" src="https://www.galanz.com/us/wp-content/uploads/2020/11/S1-1.png" alt="Product Registration" width="240" height="240" /></a></p>
+
+		</div>
+	</div>
+<div id="ultimate-heading-982164245bb4ee24a" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-982164245bb4ee24a uvc-2445 Product_Registration" data-hspacer="no_spacer"  data-halign="center" style="text-align:center"><div class="uvc-heading-spacer no_spacer" style="top"></div><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-982164245bb4ee24a h3'  data-responsive-json-new='{"font-size":"desktop:26px;","line-height":"desktop:31px;"}' ><h3 style="font-weight:normal;color:#ffffff;margin-top:20px;margin-bottom:40px;">Product Registration</h3></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner vc_custom_1593411036861"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInLeftBig fadeInLeftBig vc_custom_1634352745872 service-img2" >
+		<div class="wpb_wrapper">
+			<p><a href="https://www.galanz.com/us/?page_id=1481"><img class="wp-image-1782 size-full aligncenter" src="https://www.galanz.com/us/wp-content/uploads/2020/07/S2.png" alt="Warranty Policy" width="240" height="240" srcset="https://www.galanz.com/us/wp-content/uploads/2020/07/S2.png 240w, https://www.galanz.com/us/wp-content/uploads/2020/07/S2-150x150.png 150w" sizes="(max-width: 240px) 100vw, 240px" /></a></p>
+
+		</div>
+	</div>
+<div id="ultimate-heading-644564245bb4ee4a8" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-644564245bb4ee4a8 uvc-6227 Product_Registration" data-hspacer="no_spacer"  data-halign="center" style="text-align:center"><div class="uvc-heading-spacer no_spacer" style="top"></div><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-644564245bb4ee4a8 h3'  data-responsive-json-new='{"font-size":"desktop:26px;","line-height":"desktop:31px;"}' ><h3 style="font-weight:normal;color:#ffffff;margin-top:20px;margin-bottom:40px;">Warranty Policy</h3></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner vc_custom_1593411054437"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInLeftBig fadeInLeftBig vc_custom_1634352727561 service-img3" >
+		<div class="wpb_wrapper">
+			<p><a href="https://www.galanz.com/us/?page_id=740"><img class="wp-image-1783 size-full aligncenter" src="https://www.galanz.com/us/wp-content/uploads/2020/07/S3.png" alt="Contact" width="240" height="240" srcset="https://www.galanz.com/us/wp-content/uploads/2020/07/S3.png 240w, https://www.galanz.com/us/wp-content/uploads/2020/07/S3-150x150.png 150w" sizes="(max-width: 240px) 100vw, 240px" /></a></p>
+
+		</div>
+	</div>
+<div id="ultimate-heading-53164245bb4ee6ec" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-53164245bb4ee6ec uvc-2974 " data-hspacer="no_spacer"  data-halign="center" style="text-align:center"><div class="uvc-heading-spacer no_spacer" style="top"></div><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-53164245bb4ee6ec h3'  data-responsive-json-new='{"font-size":"desktop:26px;","line-height":"desktop:31px;"}' ><h3 style="font-weight:normal;color:#ffffff;margin-top:20px;margin-bottom:40px;">Contact</h3></div></div></div></div></div></div></div></div></div></div><!-- Row Backgrounds --><div class="upb_bg_img" data-ultimate-bg="url(https://www.galanz.com/us/wp-content/uploads/2020/07/9.jpg)" data-image-id="id^1800|url^https://www.galanz.com/us/wp-content/uploads/2020/07/9.jpg|caption^null|alt^null|title^9|description^null" data-ultimate-bg-style="vcpb-default" data-bg-img-repeat="repeat" data-bg-img-size="cover" data-bg-img-position="" data-parallx_sense="30" data-bg-override="full" data-bg_img_attach="scroll" data-upb-overlay-color="" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="6.0.5"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_raw_js" >
+		<div class="wpb_wrapper">
+			<script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      	 token: "a4e437c7-5ea1-4bc6-b9fe-4e076ab03dc9",
+	 host: "https://visionet-512734969397718416-help.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?
+  initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,
+  e.src="https://visionet-512734969397718416-help.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
+  function initiateCall(){initialize(document,"Freshchat-js-sdk")}
+  window.addEventListener?window.addEventListener("load",initiateCall,!1):
+  window.attachEvent("load",initiateCall,!1);
+</script>
+		</div>
+	</div>
+</div></div></div></div>
+
+	</div><!-- #content -->
+
+	
+
+
+			</div><!-- .wf-container -->
+		</div><!-- .wf-wrap -->
+
+	
+	</div><!-- #main -->
+
+	
+
+	
+	<!-- !Footer -->
+	<footer id="footer" class="footer solid-bg full-width">
+
+		
+			<div class="wf-wrap">
+				<div class="wf-container-footer">
+					<div class="wf-container">
+						<section id="text-3" class="widget widget_text wf-cell wf-1">			<div class="textwidget"><div class="mobile-line" style="position: relative; top: -151px; background: #000000; height: 70px; visibility: hidden;">
+<p><img class="alignnone size-medium wp-image-1787" style="vertical-align: top;" src="https://www.galanz.com/us/wp-content/uploads/2020/07/tiao-300x1.png" alt="" width="1920" height="6" /></p>
+<div style="background-color: transparent; z-index: 999; position: relative; margin: 0 auto; width: 1174px; margin-top: 9px;">
+<p class="font1-id" style="display: block; font-size: 26px; line-height: 30px; color: #a22f2f; padding-top: 4px; margin-top: -21px;">GET GALANZ NEWS</p>
+<form style="margin-top: -70px;"><input id="emailInput" class="el-input__inner" style="width: 25%; margin-left: 64%; background: #212121; border-radius: 0; margin-top: 27px;" autocomplete="off" type="text" placeholder="Enter email" /><br />
+<button id="emailButton" style="background: #f41d1d; border: none; float: right; margin-top: -48px; margin-right: 3%; display: inline-flex;" type="button"><span style="font-size: 16px; color: white; padding: 10px;">Submit</span><br />
+</button></form>
+</div>
+<p><img class="alignnone size-medium wp-image-1787" style="vertical-align: bottom; margin-bottom: 18px;" src="https://www.galanz.com/us/wp-content/uploads/2020/07/tiao-300x1.png" alt="" width="1920" height="6" /></p>
+</div>
+</div>
+		</section><section id="presscore-custom-menu-one-12" class="widget widget_presscore-custom-menu-one wf-cell wf-1-4"><div class="widget-title">Products</div><ul class="custom-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61 first"><a href="https://www.galanz.com/us/?page_id=970">Retro Collections</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="https://www.galanz.com/us/?page_id=1036">Microwaves</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="https://www.galanz.com/us/?page_id=1023">Refrigerators &#038; Freezers</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11450"><a href="https://www.galanz.com/us/?page_id=1027">Ranges &#038; Wall Ovens</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11449"><a href="https://www.galanz.com/us/?page_id=442">Dishwashers</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="https://www.galanz.com/us/?page_id=1031">Small Kitchen Appliances</a></li></ul></section><section id="presscore-custom-menu-one-11" class="widget widget_presscore-custom-menu-one wf-cell wf-1-4"><div class="widget-title">Support</div><ul class="custom-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65 first"><a href="https://www.galanz.com/us/?page_id=5192">FAQs</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66"><a href="https://www.galanz.com/us/?page_id=740">Contact Us</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6583"><a href="https://www.galanz.com/us/?page_id=5715">Recipe Books</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7548"><a href="https://720yun.com/t/dfvkcwdlzfq?scene_id=67133062">VR Kitchen</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67"><a href="https://www.galanz.com/us/?page_id=834%20">Where to Buy</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-503"><a href="https://www.galanz.com/us/?page_id=786">MAP Policy</a></li></ul></section><section id="presscore-custom-menu-one-10" class="widget widget_presscore-custom-menu-one wf-cell wf-1-4"><div class="widget-title">About Galanz</div><ul class="custom-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54 first"><a href="https://www.galanz.com/us/?page_id=1428">About Us</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55"><a href="https://www.galanz.com/us/?page_id=564">Blog</a></li></ul></section><section id="text-2" class="widget widget_text wf-cell wf-1-4">			<div class="textwidget"><ul style="text-align: right; list-style-type: none; margin-bottom: 20px;">
+<li><img class="alignnone size-full wp-image-1560" src="https://www.galanz.com/us/wp-content/uploads/2020/07/image001.png" alt="image" width="116" height="25" /></li>
+<li class="footer-right-li" style="display: inline-flex;"><a href="https://www.youtube.com/channel/UClTD2KpWFiMi4DeT8Is9-OQ" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-78" src="https://www.galanz.com/us/wp-content/uploads/2020/09/4.jpg" alt="Click me to jump to Youtube" width="50" height="50" /></a><br />
+<a href="https://www.facebook.com/Galanz-Americas-Limited-Company-2523656534371523" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-78" src="https://www.galanz.com/us/wp-content/uploads/2020/09/3.jpg" alt="Click me to jump to Facebook" width="50" height="50" /></a><br />
+<a href="https://twitter.com/GalanzAmericas" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-79" src="https://www.galanz.com/us/wp-content/uploads/2020/09/2.jpg" alt="Click me to jump to twitter" width="50" height="50" /></a><br />
+<a href="https://www.instagram.com/galanzamericas/" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-80" src="https://www.galanz.com/us/wp-content/uploads/2020/09/instagram.png" alt="Click me to jump to instagram" width="50" height="50" /></a><br />
+<a href="https://www.linkedin.com/company/galanz-americas" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-81" src="https://www.galanz.com/us/wp-content/uploads/2020/09/5.jpg" alt="Click me to jump to linkedin" width="50" height="50" /></a></li>
+</ul>
+<ul style="text-align: right; list-style-type: none;">
+<li style="display: inline-flex; color: white;"><a href="https://www.galanz.com/global/">Galanz Global</a></li>
+<li style="display: inline-flex; margin-left: 16px;"><img style="width: 22px; height: 22px; border-radius: 50%;" src="https://www.galanz.com/us/wp-content/uploads/2021/12/Galanz-Global.png"alt="GalanzGlobalImage" /></li>
+</ul>
+</div>
+		</section>					</div><!-- .wf-container -->
+				</div><!-- .wf-container-footer -->
+			</div><!-- .wf-wrap -->
+
+			
+<!-- !Bottom-bar -->
+<div id="bottom-bar" class="full-width-line logo-center" role="contentinfo">
+    <div class="wf-wrap">
+        <div class="wf-container-bottom">
+
+			
+                <div class="wf-float-left">
+
+					<p>Copyright © 2021 Galanz Americas Limited Company. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.galanz.com/us/?page_id=1696">Terms of Use</a>&nbsp;|&nbsp;<a  href="https://www.galanz.com/us/?page_id=1688">Privacy Policy</a></p>
+                </div>
+
+			
+            <div class="wf-float-right">
+
+				
+            </div>
+
+        </div><!-- .wf-container-bottom -->
+    </div><!-- .wf-wrap -->
+</div><!-- #bottom-bar -->
+	</footer><!-- #footer -->
+
+
+	<a href="#" class="scroll-top"><span class="screen-reader-text">Go to Top</span></a>
+
+</div><!-- #page -->
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400%7COpen+Sans:400" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+		<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				jQuery(sliderID).show().html(err);
+			}
+		}
+		</script>
+		<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				jQuery(sliderID).show().html(err);
+			}
+		}
+		</script>
+		<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				jQuery(sliderID).show().html(err);
+			}
+		}
+		</script>
+		<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				jQuery(sliderID).show().html(err);
+			}
+		}
+		</script>
+<link rel='stylesheet' id='ult-background-style-css'  href='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/background-style.min.css?ver=3.19.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_animate-css-css'  href='https://www.galanz.com/us/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=6.0.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/themes/the7/js/main.min.js?ver=8.5.0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.galanz.com\/us\/index.php?rest_route=\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-includes/js/wp-embed.min.js?ver=5.4.11'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.0.5'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-appear.min.js?ver=3.19.0'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate_bg.min.js?ver=5.4.11'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/custom.min.js?ver=3.19.0'></script>
+<script type='text/javascript' src='https://www.galanz.com/us/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js?ver=6.0.5'></script>
+<script type="text/javascript">
+window.addEventListener("load", function(event) {
+jQuery(".cfx_form_main,.wpcf7-form,.wpforms-form,.gform_wrapper form").each(function(){
+var form=jQuery(this); 
+var screen_width=""; var screen_height="";
+ if(screen_width == ""){
+ if(screen){
+   screen_width=screen.width;  
+ }else{
+     screen_width=jQuery(window).width();
+ }    }  
+  if(screen_height == ""){
+ if(screen){
+   screen_height=screen.height;  
+ }else{
+     screen_height=jQuery(window).height();
+ }    }
+form.append('<input type="hidden" name="vx_width" value="'+screen_width+'">');
+form.append('<input type="hidden" name="vx_height" value="'+screen_height+'">');
+form.append('<input type="hidden" name="vx_url" value="'+window.location.href+'">');  
+}); 
+
+});
+</script> 
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" title="Share"></button>
+				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div> 
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+			</button>
+			<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+			</button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
