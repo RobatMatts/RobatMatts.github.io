@@ -7,11 +7,6 @@ webhook_url = "https://discord.com/api/webhooks/1144028487036981310/JCEHbKYUXLKX
 # URL of the webpage you want to monitor
 url = "https://lifewatermedia.com/disclaimer/"
 
-# Send start message
-start_message = "I am a powerful bot now immune to sleep mode *Beep Boop*"
-data = {"content": start_message}
-response = requests.post(webhook_url, json=data)
-
 try:
     # Fetch current content
     response = requests.get(url)
