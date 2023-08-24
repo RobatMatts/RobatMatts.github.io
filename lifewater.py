@@ -27,11 +27,11 @@ try:
     new_text_elements = []
     # ... Your code to extract new text elements ...
 
-    # Construct message with @everyone mention
-    new_text_message_with_everyone = "@everyone\n" + "\n".join(new_text_elements)
+    # Construct message
+    new_text_message = "\n".join(new_text_elements)
 
     # Send message to Discord webhook
-    data = {"content": new_text_message_with_everyone}
+    data = {"content": new_text_message}
     response = requests.post(webhook_url, json=data)
     if response.status_code == 204:
         print("New text update sent to Discord.")
