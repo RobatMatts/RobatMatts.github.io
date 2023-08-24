@@ -27,16 +27,20 @@ try:
     new_text_elements = []
     # ... Your code to extract new text elements ...
 
-    # Construct message
-    new_text_message = "\n".join(new_text_elements)
+    # Check if there are new text elements to send
+    if new_text_elements:
+        # Construct message
+        new_text_message = "\n".join(new_text_elements)
 
-    # Send message to Discord webhook
-    data = {"content": new_text_message}
-    response = requests.post(webhook_url, json=data)
-    if response.status_code == 204:
-        print("New text update sent to Discord.")
+        # Send message to Discord webhook
+        data = {"content": new_text_message}
+        response = requests.post(webhook_url, json=data)
+        if response.status_code == 204:
+            print("New text update sent to Discord.")
+        else:
+            print("Failed to send new text update to Discord. Status code:", response.status_code)
     else:
-        print("Failed to send new text update to Discord. Status code:", response.status_code)
+        print("No new text to send.")
 
 except Exception as e:
     print("An error occurred:", e)
