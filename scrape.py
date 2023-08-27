@@ -30,6 +30,9 @@ if new_text_message != previous_content:
         with open("previous_content.txt", "w") as f:
             f.write(new_text_message)
         
+        # Mention @everyone in the message
+        new_content_to_send = "@everyone\n" + new_content_to_send
+        
         # Send message to Discord webhook
         data = {"content": new_content_to_send}
         response = requests.post(webhook_url, json=data)
