@@ -39,7 +39,7 @@ if new_text_message != previous_content:
 
         # Update the previous_content.txt file with new content
         with open("previous_content.txt", "w") as f:
-            f.write(new_text_message)
+            f.write(new_content)
 
         # Save the new content to debug.txt for troubleshooting
         with open("debug.txt", "w", encoding="utf-8") as debug_file:
