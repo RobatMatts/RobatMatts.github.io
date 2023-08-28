@@ -36,17 +36,9 @@ if new_text_message != previous_content:
             print("New text update sent to Discord.")
         else:
             print("Failed to send new text update to Discord. Status code:", response.status_code)
-        # Save the new content to debug.txt for troubleshooting
+            # Save the new content to debug.txt for troubleshooting
             with open("debug.txt", "w", encoding="utf-8") as debug_file:
-            	debug_file.write(new_content_to_send)
-
-        # Update the previous_content.txt file with new content
-        with open("previous_content.txt", "w") as f:
-            f.write(new_content)
-
-        # Save the new content to debug.txt for troubleshooting
-        with open("debug.txt", "w", encoding="utf-8") as debug_file:
-            debug_file.write(new_content_to_send)
+                debug_file.write(new_content_to_send)
     else:
         print("No new text to send.")
 else:
