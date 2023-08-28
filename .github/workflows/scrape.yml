@@ -21,6 +21,13 @@ jobs:
       run: |
         pip install requests
         pip install beautifulsoup4
+        
+    - name: Debug Info  # Add this step for debugging
+      run: |
+        whoami
+        id    
+
+        
 
     - name: Run script
       run: python scrape.py
