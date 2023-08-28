@@ -30,5 +30,8 @@ jobs:
     - name: Write Test
       run: echo "Testing write operation" > test.txt
 
+    - name: Print Current Directory
+      run: pwd
+
     - name: Run script
       run: python scrape.py
