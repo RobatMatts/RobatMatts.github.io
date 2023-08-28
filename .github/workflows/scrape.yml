@@ -25,9 +25,7 @@ jobs:
     - name: Debug Info  # Add this step for debugging
       run: |
         whoami
-        id    
-
-        
+        id            
 
     - name: Run script
       run: python scrape.py
