@@ -25,7 +25,10 @@ jobs:
     - name: Debug Info  # Add this step for debugging
       run: |
         whoami
-        id            
+        id
+
+    - name: Write Test
+      run: echo "Testing write operation" > test.txt
 
     - name: Run script
       run: python scrape.py
