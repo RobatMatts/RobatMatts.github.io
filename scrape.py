@@ -18,36 +18,34 @@ new_text_message = '\n'.join(paragraphs)
 # Load previous content
 try:
     with open("previous_content.txt", "r") as f:
-        previous_content = f.read()
+        previous_paragraphs = f.read()
 except FileNotFoundError:
-    previous_content = ""
+    previous_paragraphs = ""
 
 # Find the new content by comparing with previous content
-if new_text_message != previous_content:
-    # Find the difference between new and previous content
-    new_content_to_send = new_text_message.replace(previous_content, '').strip()
+new_paragraphs = new_text_message.strip().replace(previous_paragraphs.strip(), '').strip()
+if new_paragraphs:
+    # Send message to Discord webhook
+    data = {"content": "@everyone\n" + new_paragraphs}
+    response = requests.post(webhook_url, json=data)
 
-    if new_content_to_send:
-        # Send message to Discord webhook
-        data = {"content": "@everyone\n" + new_content_to_send}
-        response = requests.post(webhook_url, json=data)
-
-        if response.status_code == 204:
-            print("New text update sent to Discord.")
-        else:
-            print("Failed to send new text update to Discord. Status code:", response.status_code)
-        # Save the new content to debug.txt for troubleshooting
-            with open("debug.txt", "w", encoding="utf-8") as debug_file:
-            	debug_file.write(new_content_to_send)
-
-        # Update the previous_content.txt file with new content
-        with open("previous_content.txt", "w") as f:
-            f.write(new_content)
-
-        # Save the new content to debug.txt for troubleshooting
-        with open("debug.txt", "w", encoding="utf-8") as debug_file:
-            debug_file.write(new_content_to_send)
+    if response.status_code == 204:
+        print("New text update sent to Discord.")
     else:
-        print("No new text to send.")
+        print("Failed to send new text update to Discord. Status code:", response.status_code)
+
+    # Update the previous_content.txt file with new paragraphs
+    with open("previous_content.txt", "w") as f:
+        f.write(new_text_message)
+
+    # Save the new content to debug.txt for troubleshooting
+    with open("debug.txt", "w", encoding="utf-8") as debug_file:
+        debug_file.write(new_paragraphs)
 else:
     print("No new text to send.")
+
+
+
+
+
+
