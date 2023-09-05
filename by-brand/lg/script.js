@@ -1,5 +1,5 @@
 // Fetch the product data from the JSON file
-fetch('products.json')  
+fetch('./products.json')  
   .then(response => response.json())
   .then(data => {
     // Call a function to create product blocks using the data
