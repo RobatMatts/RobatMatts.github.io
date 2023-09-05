@@ -1,16 +1,20 @@
-// Access and display JSON data
-const outputDiv = document.getElementById("output");
+// Function to fetch and display JSON data
+function fetchAndDisplayData() {
+    fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+            const productList = document.getElementById('product-list');
+            
+            data.forEach(product => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${product.name} - Price: ${product.price}`;
+                productList.appendChild(listItem);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching product data:', error);
+        });
+}
 
-// Fetch JSON data from the external file
-fetch("data.json")
-  .then((response) => response.json())
-  .then((jsonData) => {
-    outputDiv.innerHTML = `
-      <p>Name: ${jsonData.name}</p>
-      <p>Age: ${jsonData.age}</p>
-      <p>City: ${jsonData.city}</p>
-    `;
-  })
-  .catch((error) => {
-    console.error("Error fetching JSON data:", error);
-  });
+// Call the function to fetch and display data
+fetchAndDisplayData();
