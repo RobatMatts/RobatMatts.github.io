@@ -1,14 +1,3 @@
-// Fetch the product data from the JSON file
-fetch('products.json')  
-  .then(response => response.json())
-  .then(data => {
-    // Call a function to create product blocks using the data
-    addProductBlocksToCarousel(data);
-  })
-  .catch(error => {
-    console.error('Error fetching product data:', error);
-  });
-
 // Function to create a product block
 function createProductBlock(product) {
   const productBlock = document.createElement("div");
@@ -44,15 +33,23 @@ function createProductBlock(product) {
 }
 
 // Function to add product blocks to the carousel
-function addProductBlocksToCarousel() {
+function addProductBlocksToCarousel(data) {
   const carouselContainer = document.querySelector(".carousel-side-nav");
 
   // Iterate through the product data and create product blocks
-  products.slice(0, 5).forEach((product) => {
+  data.slice(0, 5).forEach((product) => {
     const productBlock = createProductBlock(product);
     carouselContainer.appendChild(productBlock);
   });
 }
 
-// Call the function to add product blocks to the carousel
-addProductBlocksToCarousel();
+// Fetch the product data from the JSON file
+fetch('products.json')  
+  .then(response => response.json())
+  .then(data => {
+    // Call a function to create product blocks using the data
+    addProductBlocksToCarousel(data);
+  })
+  .catch(error => {
+    console.error('Error fetching product data:', error);
+  });
