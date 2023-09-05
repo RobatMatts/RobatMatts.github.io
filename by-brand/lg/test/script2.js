@@ -2,7 +2,7 @@
 const outputDiv = document.getElementById("output");
 
 // Fetch JSON data from the external file
-fetch("data2.json")
+fetch('./data2.json')
   .then((response) => response.json())
   .then((jsonData) => {
     outputDiv.innerHTML = `
