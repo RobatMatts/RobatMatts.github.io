@@ -37,7 +37,7 @@ function addProductBlocksToCarousel(data) {
   const carouselContainer = document.querySelector(".carousel-side-nav");
 
   // Iterate through the product data and create product blocks
-  data.slice(0, 5).forEach((product) => {
+  data.slice(0, 100).forEach((product) => {
     const productBlock = createProductBlock(product);
     carouselContainer.appendChild(productBlock);
   });
