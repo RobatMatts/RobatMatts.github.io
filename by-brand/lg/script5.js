@@ -4,7 +4,7 @@ function createProductBlock(product) {
   productBlock.classList.add("item", "featured-product");
 
   productBlock.innerHTML = `
-    <a class="block" href="../../products/${Product.Brand}" title="View ${product.Desc}">
+    <a class="block" href="../../products/${product.Brand}" title="View ${product.Desc}">
       <div class="model-img">
         <!-- Flags and Image -->
         <!-- ... -->
