@@ -1,0 +1,58 @@
+// Fetch the product data from the JSON file
+fetch('products.json')  
+  .then(response => response.json())
+  .then(data => {
+    // Call a function to create product blocks using the data
+    addProductBlocksToCarousel(data);
+  })
+  .catch(error => {
+    console.error('Error fetching product data:', error);
+  });
+
+// Function to create a product block
+function createProductBlock(product) {
+  const productBlock = document.createElement("div");
+  productBlock.classList.add("item", "featured-product");
+
+  productBlock.innerHTML = `
+    <a class="block" href="../../products/lg/dlgx7801we.html" title="View ${product.name}">
+      <div class="model-img">
+        <!-- Flags and Image -->
+        <!-- ... -->
+      </div>
+      <div class="model-detail">
+        <p class="model-brand-logo m-t-0">
+          <img class="model-brand-logo" height="40" title="LG Logo" alt="LG Logo" src="../../common_images/catalog_logos_standard/LG20e8.GIF?ccid=x350d5ebd">
+        </p>
+        <p class="model-desc">
+          <strong class="related-item-desc dotdotdot">${product.name}</strong>
+        </p>
+        <p class="model-branding-wrapper small text-muted">
+          <strong class="model-brand model-brand-text">${product.brand}</strong> 
+          <span class="model-number truncate">${product.modelNumber}</span>
+        </p>
+        <div class="model-detail__lower">	
+          <!-- Rating and Price Information -->
+          <!-- ... -->
+          <p class="btn btn-outline btn-primary btn-cta btn-cta-details align-self-stretch">See Details</p>
+        </div>
+      </div>
+    </a>
+  `;
+
+  return productBlock;
+}
+
+// Function to add product blocks to the carousel
+function addProductBlocksToCarousel() {
+  const carouselContainer = document.querySelector(".carousel-side-nav");
+
+  // Iterate through the product data and create product blocks
+  products.slice(0, 5).forEach((product) => {
+    const productBlock = createProductBlock(product);
+    carouselContainer.appendChild(productBlock);
+  });
+}
+
+// Call the function to add product blocks to the carousel
+addProductBlocksToCarousel();
