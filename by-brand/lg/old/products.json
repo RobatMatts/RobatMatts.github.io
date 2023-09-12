@@ -1,0 +1,84 @@
+[
+  {
+    "name": "7.3 cu.ft. Smart wi-fi Enabled Gas Dryer with TurboSteam&trade;",
+    "brand": "LG",
+    "modelNumber": "DLGX7801WE",
+    "Category": "Laundry",
+    "SubCategory": "Gas Dryer",
+    "rating": 4.6,
+    "regularPrice": "$1,049.99",
+    "salePrice": "$499",
+    "savings": "$550.99",
+    "isInStock": "Yes",
+    "clearance": "Yes",
+    "imageURL": "../../images.webfronts.com/cache/rducwyrwdupl5260.jpg?imgeng=/w_220/h_220/m_letterbox_ffffff_100"
+  },
+  {
+    "name": "5.5 cu.ft. Front Load Washer with Steam",
+    "brand": "Samsung",
+    "modelNumber": "WF5500XW",
+    "Category": "Laundry",
+    "SubCategory": "Front Load Washer",
+    "rating": 4.2,
+    "regularPrice": "$899.99",
+    "salePrice": "$699.99",
+    "savings": "$200.00",
+    "isInStock": "Yes",
+    "imageURL": "../../../images.webfronts.com/cache/samsung-washer.jpg"
+  },
+  {
+    "name": "24 cu.ft. French Door Refrigerator",
+    "brand": "Whirlpool",
+    "modelNumber": "WRF954CIHV",
+    "Category": "Refrigerator",
+    "SubCategory": "French Door",
+    "rating": 4.8,
+    "regularPrice": "$1,799.99",
+    "salePrice": "$1,599.99",
+    "savings": "$200.00",
+    "clearance": "Yes",
+    "imageURL": "../../../images.webfronts.com/cache/whirlpool-refrigerator.jpg"
+  },
+
+  {
+    "name": "7.3 cu.ft. Smart wi-fi Enabled Gas Dryer with TurboSteam&trade;",
+    "brand": "LG",
+    "modelNumber": "DLGX7801WE",
+    "Category": "Laundry",
+    "SubCategory": "Gas Dryer",
+    "rating": 4.6,
+    "regularPrice": "$1,049.99",
+    "salePrice": "$499",
+    "savings": "$550.99",
+    "isInStock": "Yes",
+    "clearance": "Yes",
+    "imageURL": "../../images.webfronts.com/cache/rducwyrwdupl5260.jpg?imgeng=/w_220/h_220/m_letterbox_ffffff_100"
+  },
+  {
+    "name": "5.5 cu.ft. Front Load Washer with Steam",
+    "brand": "Samsung",
+    "modelNumber": "WF5500XW",
+    "Category": "Laundry",
+    "SubCategory": "Front Load Washer",
+    "rating": 4.2,
+    "regularPrice": "$899.99",
+    "salePrice": "$699.99",
+    "savings": "$200.00",
+    "isInStock": "Yes",
+    "imageURL": "../../../images.webfronts.com/cache/samsung-washer.jpg"
+  },
+  {
+    "name": "24 cu.ft. French Door Refrigerator",
+    "brand": "Whirlpool",
+    "modelNumber": "WRF954CIHV",
+    "Category": "Refrigerator",
+    "SubCategory": "French Door",
+    "rating": 4.8,
+    "regularPrice": "$1,799.99",
+    "salePrice": "$1,599.99",
+    "savings": "$200.00",
+    "clearance": "Yes",
+    "imageURL": "../../../images.webfronts.com/cache/whirlpool-refrigerator.jpg"
+  }
+  
+]
